@@ -46,7 +46,7 @@ export function renderNavbar() {
         <div class="menu-overlay__info-label">Contact Phone</div>
         <div class="menu-overlay__info-value">+91 98765 43210</div>
         <div class="menu-overlay__info-label">Contact Mail</div>
-        <div class="menu-overlay__info-value">hello@dharmikgohil.fun</div>
+        <div class="menu-overlay__info-value"><a href="mailto:dharmikgohil.work@gmail.com" style="color: inherit; text-decoration: none;">dharmikgohil.work@gmail.com</a></div>
         <div class="menu-overlay__hours">Our Office hours are<br>10 AM – 6 PM, Monday – Friday</div>
         <div class="menu-overlay__socials">
           <a href="https://github.com/DharmikGohil013" class="menu-overlay__social" data-hover target="_blank">GH</a>

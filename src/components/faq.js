@@ -1,30 +1,30 @@
 export function renderFAQ() {
   const faqs = [
     {
-      q: 'What services do you offer?',
-      a: 'I specialize in Unity game development (2D & 3D), XR/AR/VR application development, multiplayer game systems, technical art, and interactive experience design. I also offer consulting for game studios looking to integrate XR features or optimize their Unity pipelines.',
+      q: 'What software engineering services do you offer?',
+      a: 'I specialize in full stack web application development (React/Next.js & Node.js/TypeScript), distributed system architecture, REST/GraphQL API design, database modeling & query optimization (PostgreSQL, MongoDB, Redis), and DevOps CI/CD automation.',
       open: true
     },
     {
-      q: 'What is your typical development process from start to finish?',
-      a: 'My process follows four key phases: Discovery & Prototyping (understanding requirements, creating rapid prototypes), Core Development (building game mechanics, systems architecture, XR interactions), Playtesting & Iteration (user testing, feedback integration, polish), and Deployment & Optimization (performance profiling, platform-specific builds, launch support).',
+      q: 'What is your software development process from start to finish?',
+      a: 'My engineering workflow follows four core phases: Architecture & Specification (system modeling, DB schemas, API specs), Full Stack Implementation (clean modular code, modern frameworks), Testing & Integration (unit testing, security audits), and Deployment & Optimization (CI/CD pipelines, cloud infrastructure, real-time monitoring).',
       open: true
     },
     {
-      q: 'Will I be involved in the process along the way?',
-      a: 'Absolutely. I believe in collaborative development. You will receive regular builds, progress updates, and opportunities to playtest at every milestone. Your feedback drives the direction of the project.'
+      q: 'Will I have full access to the codebase during development?',
+      a: 'Yes! All projects use Git version control (GitHub/GitLab). You get complete access to code repositories, staging deployments, and regular architecture updates at every milestone.'
     },
     {
-      q: 'What files will I receive when the project is complete?',
-      a: 'You will receive the complete Unity project source files, build files for target platforms (Android APK, iOS, Windows, WebGL as agreed), documentation for the codebase, and any 3D assets or shaders created during development.'
+      q: 'What deliverables will I receive upon project completion?',
+      a: 'You will receive clean, fully documented source code, production build artifacts, Docker container setups, environment configuration specs, API documentation (OpenAPI/Swagger), and full deployment rights.'
     },
     {
-      q: 'Do you offer revisions after delivery?',
-      a: 'Yes. Every project includes a post-launch support window (typically 1–3 months depending on the package) that covers bug fixes, minor feature adjustments, and performance optimizations.'
+      q: 'Do you offer post-launch support and maintenance?',
+      a: 'Yes. All packages include post-launch support (ranging from 1 to 6 months) covering system monitoring, bug fixes, performance tuning, and scaling adjustments.'
     },
     {
-      q: 'Can you work with an existing codebase or game project?',
-      a: 'Definitely. I regularly work with existing Unity projects — whether it is adding new features, optimizing performance, integrating XR capabilities, or refactoring legacy code. I will start with a thorough code review and project audit.'
+      q: 'Can you work with an existing legacy codebase or cloud setup?',
+      a: 'Absolutely. I regularly audit, refactor, and modernize existing codebases — whether it is migrating monoliths to microservices, optimizing slow database queries, or upgrading frontend/backend stacks.'
     }
   ];
   

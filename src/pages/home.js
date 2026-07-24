@@ -14,20 +14,20 @@ export function renderHome() {
 
       <div class="hero__content">
         <div class="hero__left">
-          <p class="hero__tagline">I BUILD IMMERSIVE, USER-FOCUSED GAMES AND XR EXPERIENCES THAT ARE SIMPLE, SMART, AND IMPACTFUL.</p>
+          <p class="hero__tagline">I DESIGN & BUILD SCALABLE WEB APPLICATIONS, DISTRIBUTED SYSTEM ARCHITECTURES, AND HIGH-PERFORMANCE CLOUD PLATFORMS.</p>
         </div>
         <div></div>
       </div>
 
       <div class="hero__portrait">
-        <img src="https://picsum.photos/seed/hero-portrait/800/1000" alt="Dharmik Gohil" />
+        <img src="/dharmik-persona.png" alt="Dharmik Gohil" />
       </div>
 
       <div class="hero__featured-card">
-        <img src="https://picsum.photos/seed/featured-proj/400/300" alt="Featured Project" />
+        <img src="https://picsum.photos/seed/featured-proj/400/300" alt="Featured System" />
         <div class="hero__featured-card-info">
-          <span>ZENTIX</span>
-          <span>/ Game Dev</span>
+          <span>NEXUS</span>
+          <span>/ Cloud Engine</span>
         </div>
       </div>
 
@@ -37,11 +37,11 @@ export function renderHome() {
           <div class="hero__big-name">DHARMIK</div>
         </div>
         <div class="hero__contact-card">
-          <img src="https://picsum.photos/seed/avatar-sm/100/100" alt="Dharmik" />
+          <img src="/dharmik-persona.png" alt="Dharmik" />
           <div class="hero__contact-card-text">
             <div class="hero__contact-card-label">Let's Talk</div>
             <div class="hero__contact-card-name">Dharmik Gohil</div>
-            <div class="hero__contact-card-role">Unity Game Developer & XR Engineer</div>
+            <div class="hero__contact-card-role">Full Stack Software Engineer & System Architect</div>
           </div>
           <a href="#/contact" class="hero__contact-card-btn" data-hover>→</a>
         </div>
@@ -61,32 +61,32 @@ export function renderHome() {
         <div class="about__grid">
           <div class="about__images">
             <div class="about__img-frame about__img-frame--large reveal">
-              <img src="https://picsum.photos/seed/about-walk/400/500" alt="About" />
+              <img src="/dharmik-persona.png" alt="Dharmik Gohil" />
             </div>
             <div class="about__img-frame about__img-frame--small reveal">
-              <img src="https://picsum.photos/seed/about-portrait/300/400" alt="Portrait" />
+              <img src="/dharmik-persona.png" alt="Portrait" />
             </div>
           </div>
           <div class="about__text">
-            <div class="about__eyebrow eyebrow reveal">BETTER DIGITAL JOURNEYS.</div>
-            <h2 class="about__heading heading-two-tone reveal">MY IMPACT THROUGH<br>USER<br><span class="gray">EXPERIENCE</span></h2>
+            <div class="about__eyebrow eyebrow reveal">SCALABLE SYSTEM DESIGN.</div>
+            <h2 class="about__heading heading-two-tone reveal">MY IMPACT THROUGH<br>SOFTWARE<br><span class="gray">ENGINEERING</span></h2>
             <span class="about__sparkle reveal">✳</span>
-            <img src="https://picsum.photos/seed/about-small/200/200" alt="Dharmik" class="about__portrait-small" />
+            <img src="/dharmik-persona.png" alt="Dharmik" class="about__portrait-small" />
             <p class="about__bio reveal">
-              Hi, I'm Dharmik Gohil, a Unity Game Developer & XR Engineer passionate about creating intuitive and visually engaging games and interactive experiences. I combine technical depth with creative design to build products that truly resonate.
+              Hi, I'm Dharmik Gohil, a Full Stack Software Engineer & System Architect specializing in scalable web applications, distributed microservices, and modern frontend systems. I combine technical depth with clean architecture to build resilient digital platforms.
             </p>
             <div class="about__stats reveal">
               <div class="about__stat">
                 <div class="about__stat-icon">✳</div>
-                <div class="about__stat-number" data-count="37" data-suffix="+">0+</div>
-                <div class="about__stat-label">PROJECTS COMPLETED</div>
-                <p class="about__stat-desc">Successfully delivered games, XR apps, and interactive experiences across multiple platforms.</p>
+                <div class="about__stat-number" data-count="45" data-suffix="+">0+</div>
+                <div class="about__stat-label">SYSTEMS DEPLOYED</div>
+                <p class="about__stat-desc">Successfully architected and deployed full stack applications, APIs, and cloud services.</p>
               </div>
               <div class="about__stat">
                 <div class="about__stat-icon">✳</div>
-                <div class="about__stat-number" data-count="70" data-suffix="+">0+</div>
+                <div class="about__stat-number" data-count="85" data-suffix="+">0+</div>
                 <div class="about__stat-label">HAPPY CLIENTS</div>
-                <p class="about__stat-desc">Clients worldwide trust my work for quality, performance, and creative excellence.</p>
+                <p class="about__stat-desc">Global clients trust my code for reliability, speed, security, and clean system design.</p>
               </div>
             </div>
           </div>
@@ -100,7 +100,7 @@ export function renderHome() {
         <div class="services__header reveal">
           <div>
             <div class="eyebrow">OUR SERVICES</div>
-            <h2 class="heading-two-tone" style="font-size: clamp(2.5rem, 4vw, 3.5rem); margin-top: 1rem;">POWERFUL DEVELOPMENT SERVICES <span class="gray">FOR YOUR BRAND</span></h2>
+            <h2 class="heading-two-tone" style="font-size: clamp(2.5rem, 4vw, 3.5rem); margin-top: 1rem;">SCALABLE SOFTWARE SERVICES <span class="gray">FOR YOUR BUSINESS</span></h2>
           </div>
         </div>
 
@@ -109,23 +109,23 @@ export function renderHome() {
             <div class="services__item-header" data-accordion-header>
               <span class="services__item-index">001 ✳</span>
               <div>
-                <h3 class="services__item-title"><span class="accent">GAME</span><br>DEVELOPMENT</h3>
-                <p class="services__item-desc">End-to-end game creation from concept to launch across mobile, PC, and console platforms.</p>
+                <h3 class="services__item-title"><span class="accent">FULL STACK</span><br>WEB DEVELOPMENT</h3>
+                <p class="services__item-desc">End-to-end modern web applications built with React, Next.js, Node.js, and TypeScript.</p>
               </div>
               <span class="services__item-toggle">+</span>
             </div>
             <div class="services__item-body">
               <div class="services__item-body-content">
-                <img src="https://picsum.photos/seed/service-1/400/300" alt="Game Development" class="services__item-image" />
+                <img src="https://picsum.photos/seed/service-1/400/300" alt="Full Stack Development" class="services__item-image" />
                 <div>
                   <div class="services__item-tags">
-                    <span class="pill-tag">Unity Engine</span>
-                    <span class="pill-tag">C# Scripting</span>
-                    <span class="pill-tag">Mobile Builds</span>
-                    <span class="pill-tag">Cross-Platform</span>
-                    <span class="pill-tag">Performance Optimization</span>
+                    <span class="pill-tag">React / Next.js</span>
+                    <span class="pill-tag">TypeScript</span>
+                    <span class="pill-tag">Node.js</span>
+                    <span class="pill-tag">Tailwind CSS</span>
+                    <span class="pill-tag">Web Vitals</span>
                   </div>
-                  <a href="#" class="btn btn--accent services__item-btn" data-hover>VIEW PROJECT <span class="btn__arrow">→</span></a>
+                  <a href="#/services" class="btn btn--accent services__item-btn" data-hover>EXPLORE SERVICES <span class="btn__arrow">→</span></a>
                 </div>
               </div>
             </div>
@@ -135,23 +135,23 @@ export function renderHome() {
             <div class="services__item-header" data-accordion-header>
               <span class="services__item-index">002 ✳</span>
               <div>
-                <h3 class="services__item-title"><span class="accent">XR</span><br>/ AR-VR DEVELOPMENT</h3>
-                <p class="services__item-desc">Building immersive augmented and virtual reality experiences for enterprise and entertainment.</p>
+                <h3 class="services__item-title"><span class="accent">CLOUD & SYSTEM</span><br>ARCHITECTURE</h3>
+                <p class="services__item-desc">Architecting fault-tolerant microservices, serverless backends, and event-driven cloud systems.</p>
               </div>
               <span class="services__item-toggle">+</span>
             </div>
             <div class="services__item-body">
               <div class="services__item-body-content">
-                <img src="https://picsum.photos/seed/service-2/400/300" alt="XR Development" class="services__item-image" />
+                <img src="https://picsum.photos/seed/service-2/400/300" alt="Cloud Architecture" class="services__item-image" />
                 <div>
                   <div class="services__item-tags">
-                    <span class="pill-tag">AR Foundation</span>
-                    <span class="pill-tag">Meta XR SDK</span>
-                    <span class="pill-tag">OpenXR</span>
-                    <span class="pill-tag">XR Interaction Toolkit</span>
-                    <span class="pill-tag">Spatial Anchors</span>
+                    <span class="pill-tag">Microservices</span>
+                    <span class="pill-tag">Docker & K8s</span>
+                    <span class="pill-tag">AWS Cloud</span>
+                    <span class="pill-tag">Serverless</span>
+                    <span class="pill-tag">System Design</span>
                   </div>
-                  <a href="#" class="btn btn--accent services__item-btn" data-hover>VIEW PROJECT <span class="btn__arrow">→</span></a>
+                  <a href="#/services" class="btn btn--accent services__item-btn" data-hover>EXPLORE SERVICES <span class="btn__arrow">→</span></a>
                 </div>
               </div>
             </div>
@@ -161,23 +161,23 @@ export function renderHome() {
             <div class="services__item-header" data-accordion-header>
               <span class="services__item-index">003 ✳</span>
               <div>
-                <h3 class="services__item-title"><span class="accent">UNITY</span><br>3D DEVELOPMENT</h3>
-                <p class="services__item-desc">Custom Unity solutions for interactive 3D applications, simulations, and visualizations.</p>
+                <h3 class="services__item-title"><span class="accent">REST & GRAPHQL</span><br>API ENGINEERING</h3>
+                <p class="services__item-desc">High-throughput backend APIs, secure authentication gateways, and microservice communication.</p>
               </div>
               <span class="services__item-toggle">+</span>
             </div>
             <div class="services__item-body">
               <div class="services__item-body-content">
-                <img src="https://picsum.photos/seed/service-3/400/300" alt="Unity 3D" class="services__item-image" />
+                <img src="https://picsum.photos/seed/service-3/400/300" alt="API Engineering" class="services__item-image" />
                 <div>
                   <div class="services__item-tags">
-                    <span class="pill-tag">Shader Graph</span>
-                    <span class="pill-tag">HLSL</span>
-                    <span class="pill-tag">3D Physics</span>
-                    <span class="pill-tag">Custom Editor Tools</span>
-                    <span class="pill-tag">Scriptable Objects</span>
+                    <span class="pill-tag">GraphQL</span>
+                    <span class="pill-tag">RESTful APIs</span>
+                    <span class="pill-tag">Express / FastAPI</span>
+                    <span class="pill-tag">JWT & OAuth</span>
+                    <span class="pill-tag">OpenAPI</span>
                   </div>
-                  <a href="#" class="btn btn--accent services__item-btn" data-hover>VIEW PROJECT <span class="btn__arrow">→</span></a>
+                  <a href="#/services" class="btn btn--accent services__item-btn" data-hover>EXPLORE SERVICES <span class="btn__arrow">→</span></a>
                 </div>
               </div>
             </div>
@@ -187,23 +187,23 @@ export function renderHome() {
             <div class="services__item-header" data-accordion-header>
               <span class="services__item-index">004 ✳</span>
               <div>
-                <h3 class="services__item-title"><span class="accent">MULTIPLAYER</span><br>SYSTEMS</h3>
-                <p class="services__item-desc">Real-time multiplayer architecture for competitive and cooperative gaming experiences.</p>
+                <h3 class="services__item-title"><span class="accent">DATABASE</span><br>DESIGN & CACHING</h3>
+                <p class="services__item-desc">Relational and NoSQL database modeling, high-performance indexing, and Redis caching layers.</p>
               </div>
               <span class="services__item-toggle">+</span>
             </div>
             <div class="services__item-body">
               <div class="services__item-body-content">
-                <img src="https://picsum.photos/seed/service-4/400/300" alt="Multiplayer" class="services__item-image" />
+                <img src="https://picsum.photos/seed/service-4/400/300" alt="Database Architecture" class="services__item-image" />
                 <div>
                   <div class="services__item-tags">
-                    <span class="pill-tag">Photon PUN</span>
-                    <span class="pill-tag">Mirror Networking</span>
-                    <span class="pill-tag">Netcode for GameObjects</span>
-                    <span class="pill-tag">Relay Servers</span>
-                    <span class="pill-tag">Matchmaking</span>
+                    <span class="pill-tag">PostgreSQL</span>
+                    <span class="pill-tag">MongoDB</span>
+                    <span class="pill-tag">Redis</span>
+                    <span class="pill-tag">Prisma ORM</span>
+                    <span class="pill-tag">Query Optimization</span>
                   </div>
-                  <a href="#" class="btn btn--accent services__item-btn" data-hover>VIEW PROJECT <span class="btn__arrow">→</span></a>
+                  <a href="#/services" class="btn btn--accent services__item-btn" data-hover>EXPLORE SERVICES <span class="btn__arrow">→</span></a>
                 </div>
               </div>
             </div>
@@ -213,23 +213,23 @@ export function renderHome() {
             <div class="services__item-header" data-accordion-header>
               <span class="services__item-index">005 ✳</span>
               <div>
-                <h3 class="services__item-title"><span class="accent">3D</span><br>& ANIMATION</h3>
-                <p class="services__item-desc">Creating stunning 3D assets, environments, and animations for games and interactive media.</p>
+                <h3 class="services__item-title"><span class="accent">DEVOPS & CI/CD</span><br>PIPELINES</h3>
+                <p class="services__item-desc">Automated build and deployment pipelines, containerization, and zero-downtime releases.</p>
               </div>
               <span class="services__item-toggle">+</span>
             </div>
             <div class="services__item-body">
               <div class="services__item-body-content">
-                <img src="https://picsum.photos/seed/service-5/400/300" alt="3D & Animation" class="services__item-image" />
+                <img src="https://picsum.photos/seed/service-5/400/300" alt="DevOps CI/CD" class="services__item-image" />
                 <div>
                   <div class="services__item-tags">
-                    <span class="pill-tag">Blender</span>
-                    <span class="pill-tag">3D Modeling</span>
-                    <span class="pill-tag">Rigging</span>
-                    <span class="pill-tag">Animation</span>
-                    <span class="pill-tag">VFX Graph</span>
+                    <span class="pill-tag">GitHub Actions</span>
+                    <span class="pill-tag">Docker</span>
+                    <span class="pill-tag">Vercel / AWS</span>
+                    <span class="pill-tag">Terraform</span>
+                    <span class="pill-tag">Monitoring</span>
                   </div>
-                  <a href="#" class="btn btn--accent services__item-btn" data-hover>VIEW PROJECT <span class="btn__arrow">→</span></a>
+                  <a href="#/services" class="btn btn--accent services__item-btn" data-hover>EXPLORE SERVICES <span class="btn__arrow">→</span></a>
                 </div>
               </div>
             </div>
@@ -240,7 +240,7 @@ export function renderHome() {
               <span class="services__item-index">006 ✳</span>
               <div>
                 <h3 class="services__item-title"><span class="accent">TECHNICAL</span><br>CONSULTING</h3>
-                <p class="services__item-desc">Expert guidance on Unity architecture, XR integration, and game development pipelines.</p>
+                <p class="services__item-desc">Codebase audits, architectural reviews, system performance profiling, and team mentoring.</p>
               </div>
               <span class="services__item-toggle">+</span>
             </div>
@@ -249,13 +249,13 @@ export function renderHome() {
                 <img src="https://picsum.photos/seed/service-6/400/300" alt="Technical Consulting" class="services__item-image" />
                 <div>
                   <div class="services__item-tags">
-                    <span class="pill-tag">Code Review</span>
-                    <span class="pill-tag">Architecture Planning</span>
-                    <span class="pill-tag">Pipeline Optimization</span>
-                    <span class="pill-tag">Team Training</span>
-                    <span class="pill-tag">Documentation</span>
+                    <span class="pill-tag">Code Audit</span>
+                    <span class="pill-tag">System Refactoring</span>
+                    <span class="pill-tag">Performance Tuning</span>
+                    <span class="pill-tag">Security Audit</span>
+                    <span class="pill-tag">Tech Architecture</span>
                   </div>
-                  <a href="#" class="btn btn--accent services__item-btn" data-hover>VIEW PROJECT <span class="btn__arrow">→</span></a>
+                  <a href="#/services" class="btn btn--accent services__item-btn" data-hover>EXPLORE SERVICES <span class="btn__arrow">→</span></a>
                 </div>
               </div>
             </div>
@@ -263,7 +263,7 @@ export function renderHome() {
         </div>
 
         <div class="services__load-more reveal">
-          <button class="btn btn--accent" data-hover>LOAD MORE <span class="btn__arrow">→</span></button>
+          <a href="#/services" class="btn btn--accent" data-hover>ALL SERVICES <span class="btn__arrow">→</span></a>
         </div>
       </div>
     </section>
@@ -273,72 +273,72 @@ export function renderHome() {
       <div class="container">
         <div class="projects__header reveal">
           <div class="eyebrow">PORTFOLIO</div>
-          <h2 class="heading-two-tone" style="font-size: clamp(2.5rem, 5vw, 4rem); margin-top: 1rem;">OUR <span class="gray">PROJECTS.</span></h2>
+          <h2 class="heading-two-tone" style="font-size: clamp(2.5rem, 5vw, 4rem); margin-top: 1rem;">FEATURED <span class="gray">SYSTEMS.</span></h2>
         </div>
 
         <div class="projects__grid reveal-stagger">
           <div class="projects__card" data-hover>
             <div class="projects__card-image">
-              <img src="https://picsum.photos/seed/proj-nebula/600/700" alt="Nebula Runner" />
+              <img src="https://picsum.photos/seed/proj-nexus/600/700" alt="Nexus Cloud Platform" />
             </div>
             <div class="projects__card-info">
-              <span class="projects__card-name"><span class="sparkle">✳</span> Nebula Runner</span>
-              <span class="projects__card-category">/Game Dev</span>
+              <span class="projects__card-name"><span class="sparkle">✳</span> Nexus Cloud Engine</span>
+              <span class="projects__card-category">/Cloud Microservices</span>
             </div>
           </div>
 
           <div class="projects__card" data-hover>
             <div class="projects__card-image">
-              <img src="https://picsum.photos/seed/proj-armuseum/600/800" alt="AR Museum Guide" />
+              <img src="https://picsum.photos/seed/proj-devpulse/600/800" alt="DevPulse Dashboard" />
             </div>
             <div class="projects__card-info">
-              <span class="projects__card-name"><span class="sparkle">✳</span> AR Museum Guide</span>
-              <span class="projects__card-category">/XR</span>
+              <span class="projects__card-name"><span class="sparkle">✳</span> DevPulse Analytics</span>
+              <span class="projects__card-category">/SaaS Web Application</span>
             </div>
           </div>
 
           <div class="projects__card" data-hover>
             <div class="projects__card-image">
-              <img src="https://picsum.photos/seed/proj-void/600/700" alt="Void Strikers" />
+              <img src="https://picsum.photos/seed/proj-hyperscale/600/700" alt="HyperScale Gateway" />
             </div>
             <div class="projects__card-info">
-              <span class="projects__card-name"><span class="sparkle">✳</span> Void Strikers</span>
-              <span class="projects__card-category">/Multiplayer</span>
+              <span class="projects__card-name"><span class="sparkle">✳</span> HyperScale Gateway</span>
+              <span class="projects__card-category">/Distributed API</span>
             </div>
           </div>
 
           <div class="projects__card" data-hover>
             <div class="projects__card-image">
-              <img src="https://picsum.photos/seed/proj-medivr/600/750" alt="MediVR Training" />
+              <img src="https://picsum.photos/seed/proj-datasphere/600/750" alt="DataSphere DB" />
             </div>
             <div class="projects__card-info">
-              <span class="projects__card-name"><span class="sparkle">✳</span> MediVR Training</span>
-              <span class="projects__card-category">/VR</span>
+              <span class="projects__card-name"><span class="sparkle">✳</span> DataSphere DB</span>
+              <span class="projects__card-category">/Database Systems</span>
             </div>
           </div>
 
           <div class="projects__card" data-hover>
             <div class="projects__card-image">
-              <img src="https://picsum.photos/seed/proj-pixel/600/700" alt="Pixel Forge Editor" />
+              <img src="https://picsum.photos/seed/proj-flowcraft/600/700" alt="FlowCraft App" />
             </div>
             <div class="projects__card-info">
-              <span class="projects__card-name"><span class="sparkle">✳</span> Pixel Forge Editor</span>
-              <span class="projects__card-category">/Tools</span>
+              <span class="projects__card-name"><span class="sparkle">✳</span> FlowCraft Studio</span>
+              <span class="projects__card-category">/Web Application</span>
             </div>
           </div>
 
           <div class="projects__card" data-hover>
             <div class="projects__card-image">
-              <img src="https://picsum.photos/seed/proj-drift/600/800" alt="Drift Legends" />
+              <img src="https://picsum.photos/seed/proj-vanguard/600/800" alt="Vanguard Security" />
             </div>
             <div class="projects__card-info">
-              <span class="projects__card-name"><span class="sparkle">✳</span> Drift Legends</span>
-              <span class="projects__card-category">/Racing</span>
+              <span class="projects__card-name"><span class="sparkle">✳</span> Vanguard Sentinel</span>
+              <span class="projects__card-category">/DevOps & Security</span>
             </div>
           </div>
 
           <div class="projects__all-btn">
-            <a href="#/blogs" class="btn btn--accent" data-hover>ALL PROJECTS <span class="btn__arrow">→</span></a>
+            <a href="#/blogs" class="btn btn--accent" data-hover>TECHNICAL ARTICLES <span class="btn__arrow">→</span></a>
           </div>
         </div>
       </div>
@@ -348,39 +348,47 @@ export function renderHome() {
     <section class="process section">
       <div class="container">
         <div class="eyebrow reveal">MY DEVELOPMENT PROCESS</div>
-        <h2 class="heading-two-tone reveal" style="font-size: clamp(2.5rem, 4vw, 3.5rem); margin-top: 1rem;">DEVELOPMENT PROCESS <span class="gray">THAT WORKS</span></h2>
+        <h2 class="heading-two-tone reveal" style="font-size: clamp(2.5rem, 4vw, 3.5rem); margin-top: 1rem;">ENGINEERING PROCESS <span class="gray">THAT SCALES</span></h2>
 
         <div class="process__grid reveal-stagger">
           <div class="process__card" data-hover>
-            <div class="process__card-icon">🎯</div>
+            <div class="process__card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+            </div>
             <div class="process__card-number">01</div>
             <div>
-              <h3 class="process__card-title">PROTOTYPING</h3>
-              <p class="process__card-desc">Rapid iteration on core mechanics and user flows to validate concepts before full development.</p>
+              <h3 class="process__card-title">ARCHITECTURE & SPECIFICATION</h3>
+              <p class="process__card-desc">Thorough requirements gathering, system design modeling, database schemas, and API specification.</p>
             </div>
           </div>
           <div class="process__card" data-hover>
-            <div class="process__card-icon">⚙️</div>
+            <div class="process__card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+            </div>
             <div class="process__card-number">02</div>
             <div>
-              <h3 class="process__card-title">CORE MECHANICS</h3>
-              <p class="process__card-desc">Building robust game systems, physics, AI, and interaction frameworks that form the foundation.</p>
+              <h3 class="process__card-title">FULL STACK IMPLEMENTATION</h3>
+              <p class="process__card-desc">Writing clean, testable frontend and backend code with modular design patterns and modern frameworks.</p>
             </div>
           </div>
           <div class="process__card" data-hover>
-            <div class="process__card-icon">🎮</div>
+            <div class="process__card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
             <div class="process__card-number">03</div>
             <div>
-              <h3 class="process__card-title">PLAYTESTING</h3>
-              <p class="process__card-desc">Rigorous user testing and feedback loops to refine gameplay and ensure intuitive experiences.</p>
+              <h3 class="process__card-title">TESTING & INTEGRATION</h3>
+              <p class="process__card-desc">Automated unit testing, integration tests, end-to-end verification, and continuous security audits.</p>
             </div>
           </div>
           <div class="process__card" data-hover>
-            <div class="process__card-icon">✨</div>
+            <div class="process__card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/></svg>
+            </div>
             <div class="process__card-number">04</div>
             <div>
-              <h3 class="process__card-title">OPTIMIZATION & POLISH</h3>
-              <p class="process__card-desc">Performance profiling, visual polish, and platform-specific optimization for launch readiness.</p>
+              <h3 class="process__card-title">DEPLOYMENT & OPTIMIZATION</h3>
+              <p class="process__card-desc">CI/CD automation, cloud deployment, database query tuning, and real-time performance monitoring.</p>
             </div>
           </div>
         </div>
@@ -406,20 +414,20 @@ export function renderHome() {
           <div class="pricing__card" data-hover>
             <div class="pricing__card-label">STARTER PACKAGE</div>
             <div class="pricing__card-price">
-              <span data-price-monthly>$200</span>
-              <span data-price-project style="display:none">$500</span>
+              <span data-price-monthly>$300</span>
+              <span data-price-project style="display:none">$800</span>
               <span class="pricing__card-price-suffix">/Month</span>
             </div>
             <ul class="pricing__card-features">
-              <li><span class="icon">→</span> Core Gameplay Prototype</li>
-              <li><span class="icon">→</span> Single Platform Build</li>
-              <li><span class="icon">→</span> Basic Game UI/UX</li>
-              <li><span class="icon">→</span> 2 Revision Rounds</li>
-              <li><span class="icon">→</span> Email Support</li>
-              <li><span class="icon">→</span> Source Files</li>
+              <li><span class="icon">→</span> Custom Web Application</li>
+              <li><span class="icon">→</span> Responsive UI/UX Design</li>
+              <li><span class="icon">→</span> REST API Integration</li>
+              <li><span class="icon">→</span> Database Architecture</li>
+              <li><span class="icon">→</span> Source Code & Docs</li>
+              <li><span class="icon">→</span> 1 Month Support</li>
             </ul>
             <div class="pricing__card-guarantee">
-              <span class="pricing__card-guarantee-icon">⚡</span>
+              <span class="pricing__card-guarantee-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span>
               <div class="pricing__card-guarantee-text">
                 <div class="pricing__card-guarantee-title">SATISFACTION GUARANTEE</div>
                 <div class="pricing__card-guarantee-desc">100% satisfaction or free revisions</div>
@@ -436,21 +444,21 @@ export function renderHome() {
           <div class="pricing__card pricing__card--featured" data-hover>
             <div class="pricing__card-label">COMPLETE PACKAGE</div>
             <div class="pricing__card-price">
-              <span data-price-monthly>$500</span>
-              <span data-price-project style="display:none">$1200</span>
+              <span data-price-monthly>$700</span>
+              <span data-price-project style="display:none">$1800</span>
               <span class="pricing__card-price-suffix">/Month</span>
             </div>
             <ul class="pricing__card-features">
-              <li><span class="icon">→</span> Full Game Development</li>
-              <li><span class="icon">→</span> Cross-Platform Build</li>
-              <li><span class="icon">→</span> Advanced Game UI/UX</li>
-              <li><span class="icon">→</span> AR/VR Integration</li>
-              <li><span class="icon">→</span> Performance Optimization</li>
-              <li><span class="icon">→</span> Source Files & Documentation</li>
+              <li><span class="icon">→</span> Full Stack Web Platform</li>
+              <li><span class="icon">→</span> Microservices & Cloud Setup</li>
+              <li><span class="icon">→</span> Advanced Database & Caching</li>
+              <li><span class="icon">→</span> CI/CD & Automated Testing</li>
+              <li><span class="icon">→</span> Security & Auth Gateway</li>
+              <li><span class="icon">→</span> Complete Source Code</li>
               <li><span class="icon">→</span> 3 Months Support</li>
             </ul>
             <div class="pricing__card-guarantee">
-              <span class="pricing__card-guarantee-icon">⚡</span>
+              <span class="pricing__card-guarantee-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span>
               <div class="pricing__card-guarantee-text">
                 <div class="pricing__card-guarantee-title">SATISFACTION GUARANTEE</div>
                 <div class="pricing__card-guarantee-desc">100% satisfaction or free revisions</div>
@@ -467,21 +475,21 @@ export function renderHome() {
           <div class="pricing__card" data-hover>
             <div class="pricing__card-label">ENTERPRISE</div>
             <div class="pricing__card-price">
-              <span data-price-monthly>$900</span>
-              <span data-price-project style="display:none">$2500</span>
+              <span data-price-monthly>$1200</span>
+              <span data-price-project style="display:none">$3500</span>
               <span class="pricing__card-price-suffix">/Month</span>
             </div>
             <ul class="pricing__card-features">
-              <li><span class="icon">→</span> Multiplayer Game Systems</li>
-              <li><span class="icon">→</span> Full XR Experience</li>
-              <li><span class="icon">→</span> Custom Shader Development</li>
-              <li><span class="icon">→</span> Backend Integration</li>
-              <li><span class="icon">→</span> Dedicated Support Channel</li>
-              <li><span class="icon">→</span> Complete Source & Docs</li>
+              <li><span class="icon">→</span> Distributed System Architecture</li>
+              <li><span class="icon">→</span> Enterprise Multi-tenant Cloud</li>
+              <li><span class="icon">→</span> High Throughput Data Pipelines</li>
+              <li><span class="icon">→</span> Dedicated DevOps Support</li>
+              <li><span class="icon">→</span> 24/7 System Monitoring</li>
+              <li><span class="icon">→</span> Full Architecture Docs</li>
               <li><span class="icon">→</span> 6 Months Support</li>
             </ul>
             <div class="pricing__card-guarantee">
-              <span class="pricing__card-guarantee-icon">⚡</span>
+              <span class="pricing__card-guarantee-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span>
               <div class="pricing__card-guarantee-text">
                 <div class="pricing__card-guarantee-title">SATISFACTION GUARANTEE</div>
                 <div class="pricing__card-guarantee-desc">100% satisfaction or free revisions</div>
@@ -500,39 +508,39 @@ export function renderHome() {
     <!-- SECTION 8: INSIGHTS -->
     <section class="insights section">
       <div class="container">
-        <div class="eyebrow reveal">DESIGN INSIGHTS</div>
-        <h2 class="heading-two-tone reveal" style="font-size: clamp(2.5rem, 4vw, 3.5rem); margin-top: 1rem;">LATEST DEV & <span class="gray">DESIGN INSIGHTS</span></h2>
+        <div class="eyebrow reveal">ENGINEERING ARTICLES</div>
+        <h2 class="heading-two-tone reveal" style="font-size: clamp(2.5rem, 4vw, 3.5rem); margin-top: 1rem;">LATEST DEV & <span class="gray">SYSTEM INSIGHTS</span></h2>
 
         <div class="insights__grid reveal-stagger">
           <div class="insights__card" data-hover>
             <div class="insights__card-image">
-              <img src="https://picsum.photos/seed/blog-unity/800/500" alt="Unity Performance" />
-              <span class="insights__card-tag pill-tag pill-tag--accent">UNITY</span>
+              <img src="https://picsum.photos/seed/blog-sys1/800/500" alt="Microservices Architecture" />
+              <span class="insights__card-tag pill-tag pill-tag--accent">CLOUD</span>
             </div>
             <div class="insights__card-content">
-              <h3 class="insights__card-title">OPTIMIZING DRAW CALLS IN UNITY FOR MOBILE VR PERFORMANCE</h3>
+              <h3 class="insights__card-title">BUILDING SCALABLE MICROSERVICES WITH GO & DOCKER</h3>
               <p class="insights__card-meta">Written by Dharmik Gohil • Published Jan 2026</p>
             </div>
           </div>
 
           <div class="insights__card" data-hover>
             <div class="insights__card-image">
-              <img src="https://picsum.photos/seed/blog-xr/800/500" alt="Hand Tracking" />
-              <span class="insights__card-tag pill-tag pill-tag--accent">XR</span>
+              <img src="https://picsum.photos/seed/blog-sys2/800/500" alt="Database Optimization" />
+              <span class="insights__card-tag pill-tag pill-tag--accent">DATABASE</span>
             </div>
             <div class="insights__card-content">
-              <h3 class="insights__card-title">DESIGNING INTUITIVE HAND TRACKING INTERACTIONS FOR QUEST 3</h3>
+              <h3 class="insights__card-title">OPTIMIZING DATABASE QUERY PERFORMANCE IN POSTGRESQL AT SCALE</h3>
               <p class="insights__card-meta">Written by Dharmik Gohil • Published Dec 2025</p>
             </div>
           </div>
 
           <div class="insights__card" data-hover>
             <div class="insights__card-image">
-              <img src="https://picsum.photos/seed/blog-mp/800/500" alt="Multiplayer" />
-              <span class="insights__card-tag pill-tag pill-tag--accent">GAME DEV</span>
+              <img src="https://picsum.photos/seed/blog-sys3/800/500" alt="Next.js Architecture" />
+              <span class="insights__card-tag pill-tag pill-tag--accent">FULL STACK</span>
             </div>
             <div class="insights__card-content">
-              <h3 class="insights__card-title">BUILDING A SCALABLE MULTIPLAYER ARCHITECTURE WITH PHOTON</h3>
+              <h3 class="insights__card-title">NEXT.JS 15 SERVER COMPONENTS: ARCHITECTURE & BEST PRACTICES</h3>
               <p class="insights__card-meta">Written by Dharmik Gohil • Published Nov 2025</p>
             </div>
           </div>

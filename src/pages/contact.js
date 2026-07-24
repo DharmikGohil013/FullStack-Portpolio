@@ -36,7 +36,7 @@ export function renderContact() {
           </div>
           <div class="contact-info__card">
             <span class="contact-info__label">EMAIL</span>
-            <div class="contact-info__value">hello@dharmikgohil.fun</div>
+            <div class="contact-info__value"><a href="mailto:dharmikgohil.work@gmail.com" style="color: inherit; text-decoration: none;">dharmikgohil.work@gmail.com</a></div>
           </div>
         </div>
       </div>

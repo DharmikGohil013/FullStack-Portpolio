@@ -75,4 +75,4 @@ Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
 ## 👤 Author
 
 **Dharmik Gohil**
-- Full Stack Developer
+- Full Stack Software Engineer & System Architect

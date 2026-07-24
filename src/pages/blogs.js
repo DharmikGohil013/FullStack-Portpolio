@@ -16,11 +16,11 @@ export function renderBlogs() {
           <!-- Article 1 -->
           <a href="#" class="blogs-grid__card">
             <div class="blogs-grid__card-image">
-              <img src="https://picsum.photos/seed/art1/800/500" alt="MASTERING OBJECT POOLING FOR HIGH-PERFORMANCE UNITY GAMES" />
+              <img src="https://picsum.photos/seed/art1/800/500" alt="BUILDING SCALABLE MICROSERVICES WITH GO & DOCKER" />
             </div>
             <div class="blogs-grid__card-content">
-              <span class="pill-tag pill-tag--accent blogs-grid__card-tag">UNITY</span>
-              <h2 class="blogs-grid__card-title">MASTERING OBJECT POOLING FOR HIGH-PERFORMANCE UNITY GAMES</h2>
+              <span class="pill-tag pill-tag--accent blogs-grid__card-tag">CLOUD</span>
+              <h2 class="blogs-grid__card-title">BUILDING SCALABLE MICROSERVICES WITH GO & DOCKER</h2>
               <p class="blogs-grid__card-meta">Written by Dharmik Gohil • Published Jan 2026</p>
             </div>
           </a>
@@ -28,11 +28,11 @@ export function renderBlogs() {
           <!-- Article 2 -->
           <a href="#" class="blogs-grid__card">
             <div class="blogs-grid__card-image">
-              <img src="https://picsum.photos/seed/art2/800/500" alt="DESIGNING INTUITIVE HAND TRACKING INTERACTIONS FOR QUEST 3" />
+              <img src="https://picsum.photos/seed/art2/800/500" alt="OPTIMIZING DATABASE QUERY PERFORMANCE IN POSTGRESQL AT SCALE" />
             </div>
             <div class="blogs-grid__card-content">
-              <span class="pill-tag pill-tag--accent blogs-grid__card-tag">XR</span>
-              <h2 class="blogs-grid__card-title">DESIGNING INTUITIVE HAND TRACKING INTERACTIONS FOR QUEST 3</h2>
+              <span class="pill-tag pill-tag--accent blogs-grid__card-tag">DATABASE</span>
+              <h2 class="blogs-grid__card-title">OPTIMIZING DATABASE QUERY PERFORMANCE IN POSTGRESQL AT SCALE</h2>
               <p class="blogs-grid__card-meta">Written by Dharmik Gohil • Published Dec 2025</p>
             </div>
           </a>
@@ -40,11 +40,11 @@ export function renderBlogs() {
           <!-- Article 3 -->
           <a href="#" class="blogs-grid__card">
             <div class="blogs-grid__card-image">
-              <img src="https://picsum.photos/seed/art3/800/500" alt="BUILDING A SCALABLE MULTIPLAYER ARCHITECTURE WITH PHOTON" />
+              <img src="https://picsum.photos/seed/art3/800/500" alt="NEXT.JS 15 SERVER COMPONENTS: ARCHITECTURE & BEST PRACTICES" />
             </div>
             <div class="blogs-grid__card-content">
-              <span class="pill-tag pill-tag--accent blogs-grid__card-tag">GAME DEV</span>
-              <h2 class="blogs-grid__card-title">BUILDING A SCALABLE MULTIPLAYER ARCHITECTURE WITH PHOTON</h2>
+              <span class="pill-tag pill-tag--accent blogs-grid__card-tag">FULL STACK</span>
+              <h2 class="blogs-grid__card-title">NEXT.JS 15 SERVER COMPONENTS: ARCHITECTURE & BEST PRACTICES</h2>
               <p class="blogs-grid__card-meta">Written by Dharmik Gohil • Published Nov 2025</p>
             </div>
           </a>
@@ -52,11 +52,11 @@ export function renderBlogs() {
           <!-- Article 4 -->
           <a href="#" class="blogs-grid__card">
             <div class="blogs-grid__card-image">
-              <img src="https://picsum.photos/seed/art4/800/500" alt="SHADER GRAPH ESSENTIALS: CREATING STYLIZED WATER IN UNITY URP" />
+              <img src="https://picsum.photos/seed/art4/800/500" alt="DESIGNING RESILIENT DISTRIBUTED SYSTEMS WITH REDIS & KAFKA" />
             </div>
             <div class="blogs-grid__card-content">
-              <span class="pill-tag pill-tag--accent blogs-grid__card-tag">UNITY</span>
-              <h2 class="blogs-grid__card-title">SHADER GRAPH ESSENTIALS: CREATING STYLIZED WATER IN UNITY URP</h2>
+              <span class="pill-tag pill-tag--accent blogs-grid__card-tag">SYSTEM DESIGN</span>
+              <h2 class="blogs-grid__card-title">DESIGNING RESILIENT DISTRIBUTED SYSTEMS WITH REDIS & KAFKA</h2>
               <p class="blogs-grid__card-meta">Written by Dharmik Gohil • Published Oct 2025</p>
             </div>
           </a>
@@ -64,11 +64,11 @@ export function renderBlogs() {
           <!-- Article 5 -->
           <a href="#" class="blogs-grid__card">
             <div class="blogs-grid__card-image">
-              <img src="https://picsum.photos/seed/art5/800/500" alt="AR FOUNDATION 6.0: WHAT IS NEW AND HOW TO MIGRATE YOUR PROJECT" />
+              <img src="https://picsum.photos/seed/art5/800/500" alt="HIGH-THROUGHPUT GRAPHQL APIS WITH NODE.JS & PRISMA" />
             </div>
             <div class="blogs-grid__card-content">
-              <span class="pill-tag pill-tag--accent blogs-grid__card-tag">AR</span>
-              <h2 class="blogs-grid__card-title">AR FOUNDATION 6.0: WHAT IS NEW AND HOW TO MIGRATE YOUR PROJECT</h2>
+              <span class="pill-tag pill-tag--accent blogs-grid__card-tag">API</span>
+              <h2 class="blogs-grid__card-title">HIGH-THROUGHPUT GRAPHQL APIS WITH NODE.JS & PRISMA</h2>
               <p class="blogs-grid__card-meta">Written by Dharmik Gohil • Published Sep 2025</p>
             </div>
           </a>
@@ -76,11 +76,11 @@ export function renderBlogs() {
           <!-- Article 6 -->
           <a href="#" class="blogs-grid__card">
             <div class="blogs-grid__card-image">
-              <img src="https://picsum.photos/seed/art6/800/500" alt="PROCEDURAL LEVEL GENERATION TECHNIQUES FOR ROGUELIKE GAMES" />
+              <img src="https://picsum.photos/seed/art6/800/500" alt="DEV-TO-CLOUD: AUTOMATING ZERO-DOWNTIME CI/CD PIPELINES" />
             </div>
             <div class="blogs-grid__card-content">
-              <span class="pill-tag pill-tag--accent blogs-grid__card-tag">GAME DEV</span>
-              <h2 class="blogs-grid__card-title">PROCEDURAL LEVEL GENERATION TECHNIQUES FOR ROGUELIKE GAMES</h2>
+              <span class="pill-tag pill-tag--accent blogs-grid__card-tag">DEVOPS</span>
+              <h2 class="blogs-grid__card-title">DEV-TO-CLOUD: AUTOMATING ZERO-DOWNTIME CI/CD PIPELINES</h2>
               <p class="blogs-grid__card-meta">Written by Dharmik Gohil • Published Aug 2025</p>
             </div>
           </a>

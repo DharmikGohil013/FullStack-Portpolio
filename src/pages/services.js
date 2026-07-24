@@ -17,114 +17,114 @@ export function renderServices() {
           <div class="services-detail__item reveal">
             <div class="services-detail__item-content">
               <span class="services-detail__item-index">001 ✳</span>
-              <h3 class="services-detail__item-title"><span class='accent'>GAME</span> DEVELOPMENT</h3>
+              <h3 class="services-detail__item-title"><span class='accent'>FULL STACK</span> WEB DEVELOPMENT</h3>
               <p class="services-detail__item-desc">
-                End-to-end game development services bringing your creative vision to life. From initial prototyping to final polishing and deployment across multiple platforms, ensuring high performance, engaging gameplay mechanics, and captivating aesthetics.
+                End-to-end web application development using React, Next.js, TypeScript, Node.js, and modern CSS systems. From intuitive user interfaces to resilient backend APIs, building products optimized for scale, performance, and SEO.
               </p>
               <div class="services-detail__item-tags">
-                <span class="pill-tag">Unity Engine</span>
-                <span class="pill-tag">C# Scripting</span>
-                <span class="pill-tag">Mobile Builds</span>
-                <span class="pill-tag">Cross-Platform</span>
-                <span class="pill-tag">Performance Optimization</span>
+                <span class="pill-tag">React / Next.js</span>
+                <span class="pill-tag">TypeScript</span>
+                <span class="pill-tag">Node.js</span>
+                <span class="pill-tag">Tailwind CSS</span>
+                <span class="pill-tag">Web Vitals</span>
               </div>
             </div>
-            <img class="services-detail__item-image" src="https://picsum.photos/seed/svc-game/600/400" alt="Game Development">
+            <img class="services-detail__item-image" src="https://picsum.photos/seed/svc-fullstack/600/400" alt="Full Stack Web Development">
           </div>
 
           <!-- Service 2 -->
           <div class="services-detail__item reveal">
             <div class="services-detail__item-content">
               <span class="services-detail__item-index">002 ✳</span>
-              <h3 class="services-detail__item-title"><span class='accent'>XR</span> DEVELOPMENT</h3>
+              <h3 class="services-detail__item-title"><span class='accent'>CLOUD & SYSTEM</span> ARCHITECTURE</h3>
               <p class="services-detail__item-desc">
-                Building immersive augmented and virtual reality experiences that transform how users interact with digital content. From enterprise training simulations to consumer entertainment, leveraging the latest XR hardware and software.
+                Architecting fault-tolerant microservices, serverless backends, and event-driven distributed cloud systems. Designing resilient infrastructure on AWS and Vercel capable of handling high traffic with high availability.
               </p>
               <div class="services-detail__item-tags">
-                <span class="pill-tag">AR Foundation</span>
-                <span class="pill-tag">Meta XR SDK</span>
-                <span class="pill-tag">OpenXR</span>
-                <span class="pill-tag">XR Interaction Toolkit</span>
-                <span class="pill-tag">Spatial Computing</span>
+                <span class="pill-tag">Microservices</span>
+                <span class="pill-tag">Docker & K8s</span>
+                <span class="pill-tag">AWS Cloud</span>
+                <span class="pill-tag">Serverless</span>
+                <span class="pill-tag">System Design</span>
               </div>
             </div>
-            <img class="services-detail__item-image" src="https://picsum.photos/seed/svc-xr/600/400" alt="XR Development">
+            <img class="services-detail__item-image" src="https://picsum.photos/seed/svc-cloud/600/400" alt="Cloud Architecture">
           </div>
 
           <!-- Service 3 -->
           <div class="services-detail__item reveal">
             <div class="services-detail__item-content">
               <span class="services-detail__item-index">003 ✳</span>
-              <h3 class="services-detail__item-title"><span class='accent'>UNITY</span> 3D DESIGN</h3>
+              <h3 class="services-detail__item-title"><span class='accent'>REST & GRAPHQL</span> API ENGINEERING</h3>
               <p class="services-detail__item-desc">
-                Custom Unity solutions for interactive 3D applications, architectural visualizations, product configurators, and simulation systems. Combining technical precision with visual excellence.
+                Designing and building high-throughput backend APIs, secure authentication gateways, rate limiters, and microservice integration layers with comprehensive OpenAPI/Swagger documentation.
               </p>
               <div class="services-detail__item-tags">
-                <span class="pill-tag">Shader Graph</span>
-                <span class="pill-tag">HLSL</span>
-                <span class="pill-tag">3D Physics</span>
-                <span class="pill-tag">Custom Editor Tools</span>
-                <span class="pill-tag">Scriptable Objects</span>
+                <span class="pill-tag">GraphQL</span>
+                <span class="pill-tag">RESTful APIs</span>
+                <span class="pill-tag">Express / FastAPI</span>
+                <span class="pill-tag">JWT & OAuth</span>
+                <span class="pill-tag">OpenAPI</span>
               </div>
             </div>
-            <img class="services-detail__item-image" src="https://picsum.photos/seed/svc-unity/600/400" alt="Unity 3D Design">
+            <img class="services-detail__item-image" src="https://picsum.photos/seed/svc-api/600/400" alt="API Engineering">
           </div>
 
           <!-- Service 4 -->
           <div class="services-detail__item reveal">
             <div class="services-detail__item-content">
               <span class="services-detail__item-index">004 ✳</span>
-              <h3 class="services-detail__item-title"><span class='accent'>MULTIPLAYER</span> SYSTEMS</h3>
+              <h3 class="services-detail__item-title"><span class='accent'>DATABASE</span> DESIGN & CACHING</h3>
               <p class="services-detail__item-desc">
-                Architecting robust real-time multiplayer systems for competitive esports titles, cooperative adventures, and social gaming platforms. Scalable backend infrastructure with seamless networking.
+                Relational and NoSQL database modeling, high-performance query optimization, Redis caching layers, connection pooling, and automated schema migrations.
               </p>
               <div class="services-detail__item-tags">
-                <span class="pill-tag">Photon PUN</span>
-                <span class="pill-tag">Mirror</span>
-                <span class="pill-tag">Netcode for GameObjects</span>
-                <span class="pill-tag">Relay Servers</span>
-                <span class="pill-tag">Matchmaking</span>
+                <span class="pill-tag">PostgreSQL</span>
+                <span class="pill-tag">MongoDB</span>
+                <span class="pill-tag">Redis</span>
+                <span class="pill-tag">Prisma ORM</span>
+                <span class="pill-tag">Query Optimization</span>
               </div>
             </div>
-            <img class="services-detail__item-image" src="https://picsum.photos/seed/svc-multi/600/400" alt="Multiplayer Systems">
+            <img class="services-detail__item-image" src="https://picsum.photos/seed/svc-db/600/400" alt="Database Design">
           </div>
 
           <!-- Service 5 -->
           <div class="services-detail__item reveal">
             <div class="services-detail__item-content">
               <span class="services-detail__item-index">005 ✳</span>
-              <h3 class="services-detail__item-title"><span class='accent'>AR/VR</span> EXPERIENCES</h3>
+              <h3 class="services-detail__item-title"><span class='accent'>DEVOPS & CI/CD</span> PIPELINES</h3>
               <p class="services-detail__item-desc">
-                Crafting cutting-edge immersive experiences that blend the physical and digital worlds. Hand tracking, spatial anchors, passthrough mixed reality, and room-scale VR applications.
+                Building automated continuous integration and continuous deployment pipelines, containerizing environments with Docker, and setting up real-time application monitoring and logging.
               </p>
               <div class="services-detail__item-tags">
-                <span class="pill-tag">Hand Tracking</span>
-                <span class="pill-tag">Spatial Anchors</span>
-                <span class="pill-tag">Passthrough MR</span>
-                <span class="pill-tag">Room-Scale VR</span>
-                <span class="pill-tag">WebXR</span>
+                <span class="pill-tag">GitHub Actions</span>
+                <span class="pill-tag">Docker</span>
+                <span class="pill-tag">Vercel / AWS</span>
+                <span class="pill-tag">Terraform</span>
+                <span class="pill-tag">Monitoring</span>
               </div>
             </div>
-            <img class="services-detail__item-image" src="https://picsum.photos/seed/svc-arvr/600/400" alt="AR/VR Experiences">
+            <img class="services-detail__item-image" src="https://picsum.photos/seed/svc-devops/600/400" alt="DevOps Pipelines">
           </div>
 
           <!-- Service 6 -->
           <div class="services-detail__item reveal">
             <div class="services-detail__item-content">
               <span class="services-detail__item-index">006 ✳</span>
-              <h3 class="services-detail__item-title"><span class='accent'>TECHNICAL</span> ART</h3>
+              <h3 class="services-detail__item-title"><span class='accent'>TECHNICAL</span> CONSULTING</h3>
               <p class="services-detail__item-desc">
-                Bridging the gap between art and engineering with custom shaders, VFX systems, procedural generation, and post-processing pipelines that elevate visual fidelity and performance.
+                Comprehensive codebase reviews, architectural audits, security assessments, performance bottleneck profiling, and guidance on modernizing legacy software stacks.
               </p>
               <div class="services-detail__item-tags">
-                <span class="pill-tag">Shader Development</span>
-                <span class="pill-tag">VFX Graph</span>
-                <span class="pill-tag">Particle Systems</span>
-                <span class="pill-tag">Procedural Generation</span>
-                <span class="pill-tag">Post-Processing</span>
+                <span class="pill-tag">Code Audit</span>
+                <span class="pill-tag">System Refactoring</span>
+                <span class="pill-tag">Performance Tuning</span>
+                <span class="pill-tag">Security Audit</span>
+                <span class="pill-tag">Tech Architecture</span>
               </div>
             </div>
-            <img class="services-detail__item-image" src="https://picsum.photos/seed/svc-art/600/400" alt="Technical Art">
+            <img class="services-detail__item-image" src="https://picsum.photos/seed/svc-consulting/600/400" alt="Technical Consulting">
           </div>
 
         </div>

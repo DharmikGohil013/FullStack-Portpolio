@@ -1,0 +1,111 @@
+.services-hero {
+  background: var(--accent);
+  color: white;
+  padding: 10rem 0 4rem;
+  position: relative;
+}
+
+.services-hero__heading {
+  font-family: var(--font-display);
+  font-size: clamp(4rem, 10vw, 9rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 0.95;
+  letter-spacing: -0.03em;
+}
+
+.services-hero__scroll {
+  position: absolute;
+  top: 10rem;
+  right: 2rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.6);
+  writing-mode: vertical-rl;
+}
+
+.services-detail {
+  background: var(--off-white);
+}
+
+.services-detail__list {
+}
+
+.services-detail__item {
+  border: 1px solid var(--light-gray);
+  border-radius: 20px;
+  padding: 3rem;
+  margin-bottom: 2rem;
+  background: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  transition: border-color 0.3s;
+}
+
+.services-detail__item:hover {
+  border-color: var(--accent);
+}
+
+.services-detail__item-content {
+}
+
+.services-detail__item-index {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--gray);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.services-detail__item-index .sparkle {
+  color: var(--accent);
+}
+
+.services-detail__item-title {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 3vw, 2.5rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.15;
+  margin-bottom: 1rem;
+}
+
+.services-detail__item-title .accent {
+  color: var(--accent);
+}
+
+.services-detail__item-desc {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--text-light);
+  margin-bottom: 1.5rem;
+}
+
+.services-detail__item-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.services-detail__item-image {
+  border-radius: 16px;
+  overflow: hidden;
+  height: 300px;
+}
+
+.services-detail__item-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .services-detail__item { grid-template-columns: 1fr; gap: 2rem; }
+}

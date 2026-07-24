@@ -1,0 +1,163 @@
+.results {
+  background: var(--off-white);
+}
+
+.results__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.results__card {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  border: 1px solid var(--light-gray);
+  transition: transform 0.3s;
+}
+
+.results__card:hover {
+  transform: translateY(-4px);
+}
+
+.results__card--span2 {
+  grid-column: span 2;
+}
+
+.results__card--dark {
+  background: var(--black);
+  color: white;
+  border: none;
+}
+
+.results__card--image {
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.results__card--image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(1px) brightness(0.8);
+}
+
+.results__card--image .results__card-avatar {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 1.5rem;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 3px solid white;
+  object-fit: cover;
+  filter: none;
+}
+
+.results__card-eyebrow {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-light);
+  margin-bottom: 1rem;
+}
+
+.results__card-number {
+  font-family: var(--font-display);
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 0.25rem;
+}
+
+.results__card-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.results__card-desc {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  line-height: 1.6;
+  margin-top: 0.75rem;
+}
+
+.results__card-stars {
+  display: flex;
+  gap: 0.25rem;
+  color: #F59E0B;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.results__card-rating {
+  font-weight: 700;
+  margin-left: 0.5rem;
+  color: var(--text);
+}
+
+.results__card-quote {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  font-style: italic;
+  margin: 1rem 0;
+  color: var(--text);
+}
+
+.results__card-reviewer {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.results__card-reviewer img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.results__card-reviewer-name {
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.results__card-reviewer-title {
+  font-size: 0.75rem;
+  color: var(--text-light);
+}
+
+.results__card-icon {
+  font-size: 2.5rem;
+  color: var(--accent);
+  margin-bottom: 1rem;
+}
+
+.results__bts {
+  margin-top: 4rem;
+  border-radius: 20px;
+  overflow: hidden;
+  max-height: 450px;
+}
+
+.results__bts img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+  .results__grid { grid-template-columns: repeat(2, 1fr); }
+  .results__card--span2 { grid-column: span 1; }
+}
+
+@media (max-width: 600px) {
+  .results__grid { grid-template-columns: 1fr; }
+}

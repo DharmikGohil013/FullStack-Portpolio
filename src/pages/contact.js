@@ -17,9 +17,11 @@ export function renderContact() {
     <section class="contact-info section">
       <div class="container">
         <div class="contact-info__header reveal">
-          <div class="eyebrow">READY TO START?</div>
-          <h2 class="heading-two-tone" style="color: var(--black);">GET IN TOUCH</h2>
-          <a href="#" class="btn btn--accent" data-hover>BOOK A CALL <span class="btn__arrow">→</span></a>
+          <div class="contact-info__header-left">
+            <div class="eyebrow">READY TO START?</div>
+            <h2 class="heading-two-tone" style="color: var(--black); font-size: clamp(2.5rem, 5vw, 4rem); margin-top: 0.5rem;">GET IN TOUCH</h2>
+          </div>
+          <a href="mailto:dharmikgohil.work@gmail.com" class="btn btn--accent contact-info__book-btn" data-hover>BOOK A CALL <span class="btn__arrow">→</span></a>
         </div>
         <div class="contact-info__grid reveal-stagger">
           <div class="contact-info__card">

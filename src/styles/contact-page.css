@@ -30,7 +30,17 @@
 }
 
 .contact-info__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
   margin-bottom: 3rem;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.contact-info__header-left {
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-info__grid {

@@ -29,7 +29,7 @@ export function renderServices() {
                 <span class="pill-tag">Web Vitals</span>
               </div>
             </div>
-            <img class="services-detail__item-image" src="https://picsum.photos/seed/svc-fullstack/600/400" alt="Full Stack Web Development">
+            <img class="services-detail__item-image" src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=600&auto=format&fit=crop" alt="Full Stack Web Development">
           </div>
 
           <!-- Service 2 -->
@@ -48,7 +48,7 @@ export function renderServices() {
                 <span class="pill-tag">System Design</span>
               </div>
             </div>
-            <img class="services-detail__item-image" src="https://picsum.photos/seed/svc-cloud/600/400" alt="Cloud Architecture">
+            <img class="services-detail__item-image" src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop" alt="Cloud Architecture">
           </div>
 
           <!-- Service 3 -->
@@ -67,7 +67,7 @@ export function renderServices() {
                 <span class="pill-tag">OpenAPI</span>
               </div>
             </div>
-            <img class="services-detail__item-image" src="https://picsum.photos/seed/svc-api/600/400" alt="API Engineering">
+            <img class="services-detail__item-image" src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?q=80&w=600&auto=format&fit=crop" alt="API Engineering">
           </div>
 
           <!-- Service 4 -->
@@ -86,7 +86,7 @@ export function renderServices() {
                 <span class="pill-tag">Query Optimization</span>
               </div>
             </div>
-            <img class="services-detail__item-image" src="https://picsum.photos/seed/svc-db/600/400" alt="Database Design">
+            <img class="services-detail__item-image" src="https://images.unsplash.com/photo-1542744094-3a31727223ec?q=80&w=600&auto=format&fit=crop" alt="Database Design">
           </div>
 
           <!-- Service 5 -->
@@ -105,7 +105,7 @@ export function renderServices() {
                 <span class="pill-tag">Monitoring</span>
               </div>
             </div>
-            <img class="services-detail__item-image" src="https://picsum.photos/seed/svc-devops/600/400" alt="DevOps Pipelines">
+            <img class="services-detail__item-image" src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?q=80&w=600&auto=format&fit=crop" alt="DevOps Pipelines">
           </div>
 
           <!-- Service 6 -->
@@ -124,7 +124,7 @@ export function renderServices() {
                 <span class="pill-tag">Tech Architecture</span>
               </div>
             </div>
-            <img class="services-detail__item-image" src="https://picsum.photos/seed/svc-consulting/600/400" alt="Technical Consulting">
+            <img class="services-detail__item-image" src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=600&auto=format&fit=crop" alt="Technical Consulting">
           </div>
 
         </div>

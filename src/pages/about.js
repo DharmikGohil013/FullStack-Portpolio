@@ -9,12 +9,13 @@ import { initCounters } from '../counter.js';
 
 export function renderAbout() {
   const skills = [
-    'React / Next.js', 'TypeScript', 'Node.js & Express',
-    'PostgreSQL & SQL', 'MongoDB', 'Docker & Kubernetes',
-    'AWS & Cloud Architecture', 'GraphQL & REST APIs', 'Redis Caching',
-    'Go / Golang', 'Python & FastAPI', 'Prisma ORM',
-    'Git & CI/CD Pipelines', 'Tailwind CSS & Modern UI', 'System Design & Microservices',
-    'Performance Tuning & Web Vitals', 'Security & OAuth2', 'Figma & System Specs'
+    'React.js & Next.js 15', 'TypeScript', 'Node.js & Express.js',
+    'Data Structures & Algorithms (NPTEL Certified)', 'C# Programming (HackerRank)', 'Java & OOP (NPTEL)',
+    'PostgreSQL & Complex SQL', 'MongoDB & MERN Stack', 'Docker & Kubernetes',
+    'AWS Cloud Infrastructure', 'RESTful & GraphQL APIs', 'Redis Caching & In-Memory Storage',
+    'Go / Golang', 'Python & FastAPI', 'Prisma & TypeORM',
+    'CI/CD Pipelines & GitHub Actions', 'Tailwind CSS & Web Vitals', 'System Design & Microservices',
+    'Solidity & Web 3.0 Smart Contracts', 'Security, JWT & OAuth2', 'CHARUSAT IT Engineering'
   ];
 
   return `
@@ -32,16 +33,16 @@ export function renderAbout() {
         <!-- Gallery Strip -->
         <div class="about-gallery reveal-stagger">
           <div class="about-gallery__img">
-            <img src="/dharmik-persona.png" alt="Dharmik Gohil" />
+            <img src="https://dharmikgohil.art/assets/img/blog/hackron/hackathon-7.jpg" alt="Dharmik Gohil Hackathon Coding Session" />
           </div>
           <div class="about-gallery__img">
-            <img src="https://picsum.photos/seed/gallery2/600/400" alt="System Architecture" />
+            <img src="https://dharmikgohil.art/assets/img/blog/charusat-expo/expo-5.jpg" alt="CHARUSAT Expo 3.0 Presentation" />
           </div>
           <div class="about-gallery__img">
-            <img src="https://picsum.photos/seed/gallery3/600/400" alt="Codebase Setup" />
+            <img src="https://dharmikgohil.art/assets/img/blog/hackron/team-2.jpg" alt="Team Bug Busters Hackron Hackathon 2025" />
           </div>
           <div class="about-gallery__img">
-            <img src="https://picsum.photos/seed/gallery4/600/400" alt="Developer Workspace" />
+            <img src="https://dharmikgohil.art/assets/img/blog/charusat-expo/expo-6.jpg" alt="CHARUSAT Expo Exhibition Celebration" />
           </div>
         </div>
       </div>
@@ -72,9 +73,9 @@ export function renderAbout() {
         </div>
         <div class="about-statement__trust reveal">
           <div class="about-statement__trust-avatars">
-            <img src="https://picsum.photos/seed/trust1/80/80" alt="Client" />
-            <img src="https://picsum.photos/seed/trust2/80/80" alt="Client" />
-            <img src="https://picsum.photos/seed/trust3/80/80" alt="Client" />
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=100&auto=format&fit=crop" alt="Client" />
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=100&auto=format&fit=crop" alt="Client" />
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=100&auto=format&fit=crop" alt="Client" />
           </div>
           <div class="about-statement__trust-text">
             <div style="display: inline-flex; gap: 2px; align-items: center;">
@@ -102,21 +103,21 @@ export function renderAbout() {
         </h2>
         <div class="career__cards reveal-stagger">
           <div class="career__card" data-hover>
-            <img src="https://picsum.photos/seed/career-evo/700/500" alt="Senior Software Engineer" />
+            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=700&auto=format&fit=crop" alt="Senior Software Engineer" />
             <div class="career__card-overlay">
               <div class="career__card-name">Tech Scale Inc</div>
               <div class="career__card-period">SENIOR_FULL_STACK_ENGINEER_[2023-PRESENT]</div>
             </div>
           </div>
           <div class="career__card" data-hover>
-            <img src="https://picsum.photos/seed/career-free/700/500" alt="System Architect" />
+            <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=700&auto=format&fit=crop" alt="System Architect" />
             <div class="career__card-overlay">
               <div class="career__card-name">Independent Consultant</div>
               <div class="career__card-period">SYSTEM_ARCHITECT_[2022-PRESENT]</div>
             </div>
           </div>
           <div class="career__card" data-hover>
-            <img src="https://picsum.photos/seed/career-idc/700/500" alt="Co-Founder & Tech Lead" />
+            <img src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?q=80&w=700&auto=format&fit=crop" alt="Co-Founder & Tech Lead" />
             <div class="career__card-overlay">
               <div class="career__card-name">Dev Collective</div>
               <div class="career__card-period">CO-FOUNDER_&_TECH_LEAD_[2021-PRESENT]</div>

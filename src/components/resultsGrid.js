@@ -14,8 +14,7 @@ export function renderResultsGrid() {
           </div>
           
           <div class="results__card results__card--image">
-            <img src="/dharmik-persona.png" alt="Profile" />
-            <img src="/dharmik-persona.png" alt="Dharmik" class="results__card-avatar" />
+            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=800&auto=format&fit=crop" alt="System Code Architecture" />
           </div>
           
           <div class="results__card">
@@ -29,7 +28,7 @@ export function renderResultsGrid() {
             </div>
             <p class="results__card-quote">"Dharmik architected an exceptional distributed API system for our platform launch. His attention to code quality, system performance, and database indexing is world-class."</p>
             <div class="results__card-reviewer">
-              <img src="https://picsum.photos/seed/reviewer1/100/100" alt="Reviewer" />
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop" alt="Reviewer" />
               <div>
                 <div class="results__card-reviewer-name">Arjun Mehta</div>
                 <div class="results__card-reviewer-title">VP of Engineering, TechNova</div>
@@ -53,7 +52,7 @@ export function renderResultsGrid() {
         </div>
         
         <div class="results__bts reveal">
-          <img src="/workspace-bts.jpg" alt="Behind the scenes workspace" />
+          <img src="https://dharmikgohil.art/assets/img/blog/hackron/hackathon-7.jpg" alt="Dharmik Gohil coding at 24-hour Hackathon" />
         </div>
       </div>
     </section>

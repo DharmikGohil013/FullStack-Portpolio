@@ -24,7 +24,7 @@ export function renderHome() {
       </div>
 
       <div class="hero__featured-card">
-        <img src="https://picsum.photos/seed/featured-proj/400/300" alt="Featured System" />
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=400&auto=format&fit=crop" alt="Featured System" />
         <div class="hero__featured-card-info">
           <span>NEXUS</span>
           <span>/ Cloud Engine</span>
@@ -37,7 +37,7 @@ export function renderHome() {
           <div class="hero__big-name">DHARMIK</div>
         </div>
         <div class="hero__contact-card">
-          <img src="/dharmik-persona.png" alt="Dharmik" />
+          <div class="hero__contact-card-badge">⚡</div>
           <div class="hero__contact-card-text">
             <div class="hero__contact-card-label">Let's Talk</div>
             <div class="hero__contact-card-name">Dharmik Gohil</div>
@@ -61,17 +61,17 @@ export function renderHome() {
         <div class="about__grid">
           <div class="about__images">
             <div class="about__img-frame about__img-frame--large reveal">
-              <img src="/dharmik-persona.png" alt="Dharmik Gohil" />
+              <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=600&auto=format&fit=crop" alt="System Architecture" />
             </div>
             <div class="about__img-frame about__img-frame--small reveal">
-              <img src="/dharmik-persona.png" alt="Portrait" />
+              <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=400&auto=format&fit=crop" alt="Developer Workflow" />
             </div>
           </div>
           <div class="about__text">
             <div class="about__eyebrow eyebrow reveal">SCALABLE SYSTEM DESIGN.</div>
             <h2 class="about__heading heading-two-tone reveal">MY IMPACT THROUGH<br>SOFTWARE<br><span class="gray">ENGINEERING</span></h2>
             <span class="about__sparkle reveal">✳</span>
-            <img src="/dharmik-persona.png" alt="Dharmik" class="about__portrait-small" />
+            <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=200&auto=format&fit=crop" alt="Software Engineering" class="about__portrait-small" />
             <p class="about__bio reveal">
               Hi, I'm Dharmik Gohil, a Full Stack Software Engineer & System Architect specializing in scalable web applications, distributed microservices, and modern frontend systems. I combine technical depth with clean architecture to build resilient digital platforms.
             </p>
@@ -116,7 +116,7 @@ export function renderHome() {
             </div>
             <div class="services__item-body">
               <div class="services__item-body-content">
-                <img src="https://picsum.photos/seed/service-1/400/300" alt="Full Stack Development" class="services__item-image" />
+                <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=400&auto=format&fit=crop" alt="Full Stack Development" class="services__item-image" />
                 <div>
                   <div class="services__item-tags">
                     <span class="pill-tag">React / Next.js</span>
@@ -142,7 +142,7 @@ export function renderHome() {
             </div>
             <div class="services__item-body">
               <div class="services__item-body-content">
-                <img src="https://picsum.photos/seed/service-2/400/300" alt="Cloud Architecture" class="services__item-image" />
+                <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=400&auto=format&fit=crop" alt="Cloud Architecture" class="services__item-image" />
                 <div>
                   <div class="services__item-tags">
                     <span class="pill-tag">Microservices</span>
@@ -168,7 +168,7 @@ export function renderHome() {
             </div>
             <div class="services__item-body">
               <div class="services__item-body-content">
-                <img src="https://picsum.photos/seed/service-3/400/300" alt="API Engineering" class="services__item-image" />
+                <img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?q=80&w=400&auto=format&fit=crop" alt="API Engineering" class="services__item-image" />
                 <div>
                   <div class="services__item-tags">
                     <span class="pill-tag">GraphQL</span>
@@ -194,7 +194,7 @@ export function renderHome() {
             </div>
             <div class="services__item-body">
               <div class="services__item-body-content">
-                <img src="https://picsum.photos/seed/service-4/400/300" alt="Database Architecture" class="services__item-image" />
+                <img src="https://images.unsplash.com/photo-1542744094-3a31727223ec?q=80&w=400&auto=format&fit=crop" alt="Database Architecture" class="services__item-image" />
                 <div>
                   <div class="services__item-tags">
                     <span class="pill-tag">PostgreSQL</span>
@@ -220,7 +220,7 @@ export function renderHome() {
             </div>
             <div class="services__item-body">
               <div class="services__item-body-content">
-                <img src="https://picsum.photos/seed/service-5/400/300" alt="DevOps CI/CD" class="services__item-image" />
+                <img src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?q=80&w=400&auto=format&fit=crop" alt="DevOps CI/CD" class="services__item-image" />
                 <div>
                   <div class="services__item-tags">
                     <span class="pill-tag">GitHub Actions</span>
@@ -246,7 +246,7 @@ export function renderHome() {
             </div>
             <div class="services__item-body">
               <div class="services__item-body-content">
-                <img src="https://picsum.photos/seed/service-6/400/300" alt="Technical Consulting" class="services__item-image" />
+                <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=400&auto=format&fit=crop" alt="Technical Consulting" class="services__item-image" />
                 <div>
                   <div class="services__item-tags">
                     <span class="pill-tag">Code Audit</span>
@@ -279,7 +279,7 @@ export function renderHome() {
         <div class="projects__grid reveal-stagger">
           <div class="projects__card" data-hover>
             <div class="projects__card-image">
-              <img src="https://picsum.photos/seed/proj-nexus/600/700" alt="Nexus Cloud Platform" />
+              <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=600&auto=format&fit=crop" alt="Nexus Cloud Platform" />
             </div>
             <div class="projects__card-info">
               <span class="projects__card-name"><span class="sparkle">✳</span> Nexus Cloud Engine</span>
@@ -289,7 +289,7 @@ export function renderHome() {
 
           <div class="projects__card" data-hover>
             <div class="projects__card-image">
-              <img src="https://picsum.photos/seed/proj-devpulse/600/800" alt="DevPulse Dashboard" />
+              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=600&auto=format&fit=crop" alt="DevPulse Dashboard" />
             </div>
             <div class="projects__card-info">
               <span class="projects__card-name"><span class="sparkle">✳</span> DevPulse Analytics</span>
@@ -299,7 +299,7 @@ export function renderHome() {
 
           <div class="projects__card" data-hover>
             <div class="projects__card-image">
-              <img src="https://picsum.photos/seed/proj-hyperscale/600/700" alt="HyperScale Gateway" />
+              <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=600&auto=format&fit=crop" alt="HyperScale Gateway" />
             </div>
             <div class="projects__card-info">
               <span class="projects__card-name"><span class="sparkle">✳</span> HyperScale Gateway</span>
@@ -309,7 +309,7 @@ export function renderHome() {
 
           <div class="projects__card" data-hover>
             <div class="projects__card-image">
-              <img src="https://picsum.photos/seed/proj-datasphere/600/750" alt="DataSphere DB" />
+              <img src="https://images.unsplash.com/photo-1542744094-3a31727223ec?q=80&w=600&auto=format&fit=crop" alt="DataSphere DB" />
             </div>
             <div class="projects__card-info">
               <span class="projects__card-name"><span class="sparkle">✳</span> DataSphere DB</span>
@@ -319,7 +319,7 @@ export function renderHome() {
 
           <div class="projects__card" data-hover>
             <div class="projects__card-image">
-              <img src="https://picsum.photos/seed/proj-flowcraft/600/700" alt="FlowCraft App" />
+              <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=600&auto=format&fit=crop" alt="FlowCraft App" />
             </div>
             <div class="projects__card-info">
               <span class="projects__card-name"><span class="sparkle">✳</span> FlowCraft Studio</span>
@@ -329,7 +329,7 @@ export function renderHome() {
 
           <div class="projects__card" data-hover>
             <div class="projects__card-image">
-              <img src="https://picsum.photos/seed/proj-vanguard/600/800" alt="Vanguard Security" />
+              <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=600&auto=format&fit=crop" alt="Vanguard Security" />
             </div>
             <div class="projects__card-info">
               <span class="projects__card-name"><span class="sparkle">✳</span> Vanguard Sentinel</span>
@@ -514,7 +514,7 @@ export function renderHome() {
         <div class="insights__grid reveal-stagger">
           <div class="insights__card" data-hover>
             <div class="insights__card-image">
-              <img src="https://picsum.photos/seed/blog-sys1/800/500" alt="Microservices Architecture" />
+              <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=800&auto=format&fit=crop" alt="Microservices Architecture" />
               <span class="insights__card-tag pill-tag pill-tag--accent">CLOUD</span>
             </div>
             <div class="insights__card-content">
@@ -525,7 +525,7 @@ export function renderHome() {
 
           <div class="insights__card" data-hover>
             <div class="insights__card-image">
-              <img src="https://picsum.photos/seed/blog-sys2/800/500" alt="Database Optimization" />
+              <img src="https://images.unsplash.com/photo-1542744094-3a31727223ec?q=80&w=800&auto=format&fit=crop" alt="Database Optimization" />
               <span class="insights__card-tag pill-tag pill-tag--accent">DATABASE</span>
             </div>
             <div class="insights__card-content">
@@ -536,7 +536,7 @@ export function renderHome() {
 
           <div class="insights__card" data-hover>
             <div class="insights__card-image">
-              <img src="https://picsum.photos/seed/blog-sys3/800/500" alt="Next.js Architecture" />
+              <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=800&auto=format&fit=crop" alt="Next.js Architecture" />
               <span class="insights__card-tag pill-tag pill-tag--accent">FULL STACK</span>
             </div>
             <div class="insights__card-content">

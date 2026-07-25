@@ -154,12 +154,18 @@
   min-width: 260px;
 }
 
-.hero__contact-card img {
-  width: 48px;
-  height: 48px;
+.hero__contact-card-badge {
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
-  object-fit: cover;
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(225, 90, 44, 0.15);
+  border: 1px solid var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: var(--accent);
+  flex-shrink: 0;
 }
 
 .hero__contact-card-text {

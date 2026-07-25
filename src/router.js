@@ -2,8 +2,8 @@
 const routes = {};
 let currentPage = null;
 
-export function registerRoute(path, { render, init }) {
-  routes[path] = { render, init };
+export function registerRoute(path, { render, init, meta }) {
+  routes[path] = { render, init, meta };
 }
 
 export function initRouter() {
@@ -18,6 +18,19 @@ async function handleRoute() {
   const route = routes[path] || routes['/404'];
   if (!route) return;
   
+  // Update document title & meta tags for SEO
+  if (route.meta) {
+    if (route.meta.title) {
+      document.title = route.meta.title;
+    }
+    if (route.meta.description) {
+      const metaDesc = document.querySelector('meta[name="description"]');
+      if (metaDesc) metaDesc.setAttribute('content', route.meta.description);
+      const ogDesc = document.querySelector('meta[property="og:description"]');
+      if (ogDesc) ogDesc.setAttribute('content', route.meta.description);
+    }
+  }
+
   const app = document.getElementById('app');
   
   // Fade out

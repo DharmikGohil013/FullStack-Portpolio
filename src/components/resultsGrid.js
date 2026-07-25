@@ -52,7 +52,7 @@ export function renderResultsGrid() {
         </div>
         
         <div class="results__bts reveal">
-          <img src="https://dharmikgohil.art/assets/img/blog/hackron/hackathon-7.jpg" alt="Dharmik Gohil coding at 24-hour Hackathon" />
+          <img src="/blue-doodle-pattern.png" alt="Behind the scenes doodle pattern" />
         </div>
       </div>
     </section>

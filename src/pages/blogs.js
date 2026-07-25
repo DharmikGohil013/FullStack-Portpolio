@@ -28,7 +28,7 @@ export function renderBlogs() {
           <!-- Article 2 -->
           <a href="#" class="blogs-grid__card">
             <div class="blogs-grid__card-image">
-              <img src="https://images.unsplash.com/photo-1542744094-3a31727223ec?q=80&w=800&auto=format&fit=crop" alt="OPTIMIZING DATABASE QUERY PERFORMANCE IN POSTGRESQL AT SCALE" />
+              <img src="/postgres-optimization.jpg" alt="OPTIMIZING DATABASE QUERY PERFORMANCE IN POSTGRESQL AT SCALE" />
             </div>
             <div class="blogs-grid__card-content">
               <span class="pill-tag pill-tag--accent blogs-grid__card-tag">DATABASE</span>

@@ -39,7 +39,7 @@ export function renderAbout() {
             <img src="https://dharmikgohil.art/assets/img/blog/charusat-expo/expo-5.jpg" alt="CHARUSAT Expo 3.0 Presentation" />
           </div>
           <div class="about-gallery__img">
-            <img src="https://dharmikgohil.art/assets/img/blog/hackron/team-2.jpg" alt="Team Bug Busters Hackron Hackathon 2025" />
+            <img src="https://dharmikgohil.art/assets/img/blog/hackron/team-2.jpg" alt="Team Bug Busters Hackron Hackathon 2025" class="rotate-90" />
           </div>
           <div class="about-gallery__img">
             <img src="https://dharmikgohil.art/assets/img/blog/charusat-expo/expo-6.jpg" alt="CHARUSAT Expo Exhibition Celebration" />
@@ -59,7 +59,7 @@ export function renderAbout() {
         </p>
         <div class="about-statement__stats reveal-stagger">
           <div>
-            <div class="about-statement__stat-value" data-count="45" data-suffix="+">0+</div>
+            <div class="about-statement__stat-value" data-count="12" data-suffix="+">0+</div>
             <div class="about-statement__stat-label">Successful Systems</div>
           </div>
           <div>
@@ -67,7 +67,7 @@ export function renderAbout() {
             <div class="about-statement__stat-label">Years Experience</div>
           </div>
           <div>
-            <div class="about-statement__stat-value" data-count="85" data-suffix="+">0+</div>
+            <div class="about-statement__stat-value" data-count="6" data-suffix="+">0+</div>
             <div class="about-statement__stat-label">Global Clients</div>
           </div>
         </div>

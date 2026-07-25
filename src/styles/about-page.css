@@ -64,8 +64,16 @@
   transition: transform 0.5s;
 }
 
+.about-gallery__img img.rotate-90 {
+  transform: rotate(90deg) scale(1.35);
+}
+
 .about-gallery__img:hover img {
   transform: scale(1.05);
+}
+
+.about-gallery__img:hover img.rotate-90 {
+  transform: rotate(90deg) scale(1.45);
 }
 
 .about-statement {

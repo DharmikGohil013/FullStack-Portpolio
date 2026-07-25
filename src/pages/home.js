@@ -63,28 +63,25 @@ export function renderHome() {
             <div class="about__img-frame about__img-frame--large reveal">
               <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=600&auto=format&fit=crop" alt="System Architecture" />
             </div>
-            <div class="about__img-frame about__img-frame--small reveal">
-              <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=400&auto=format&fit=crop" alt="Developer Workflow" />
-            </div>
           </div>
           <div class="about__text">
             <div class="about__eyebrow eyebrow reveal">SCALABLE SYSTEM DESIGN.</div>
             <h2 class="about__heading heading-two-tone reveal">MY IMPACT THROUGH<br>SOFTWARE<br><span class="gray">ENGINEERING</span></h2>
             <span class="about__sparkle reveal">✳</span>
-            <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=200&auto=format&fit=crop" alt="Software Engineering" class="about__portrait-small" />
+            <img src="/code-raider.png" alt="Code Raider Logo" class="about__portrait-small" />
             <p class="about__bio reveal">
               Hi, I'm Dharmik Gohil, a Full Stack Software Engineer & System Architect specializing in scalable web applications, distributed microservices, and modern frontend systems. I combine technical depth with clean architecture to build resilient digital platforms.
             </p>
             <div class="about__stats reveal">
               <div class="about__stat">
                 <div class="about__stat-icon">✳</div>
-                <div class="about__stat-number" data-count="45" data-suffix="+">0+</div>
+                <div class="about__stat-number" data-count="12" data-suffix="+">0+</div>
                 <div class="about__stat-label">SYSTEMS DEPLOYED</div>
                 <p class="about__stat-desc">Successfully architected and deployed full stack applications, APIs, and cloud services.</p>
               </div>
               <div class="about__stat">
                 <div class="about__stat-icon">✳</div>
-                <div class="about__stat-number" data-count="85" data-suffix="+">0+</div>
+                <div class="about__stat-number" data-count="6" data-suffix="+">0+</div>
                 <div class="about__stat-label">HAPPY CLIENTS</div>
                 <p class="about__stat-desc">Global clients trust my code for reliability, speed, security, and clean system design.</p>
               </div>
@@ -105,13 +102,12 @@ export function renderHome() {
         </div>
 
         <div class="services__list">
+          <!-- Service 001 -->
           <div class="services__item active">
             <div class="services__item-header" data-accordion-header>
               <span class="services__item-index">001 ✳</span>
-              <div>
-                <h3 class="services__item-title"><span class="accent">FULL STACK</span><br>WEB DEVELOPMENT</h3>
-                <p class="services__item-desc">End-to-end modern web applications built with React, Next.js, Node.js, and TypeScript.</p>
-              </div>
+              <h3 class="services__item-title"><span class="accent">FULL STACK</span> WEB DEVELOPMENT</h3>
+              <p class="services__item-desc">End-to-end modern web applications built with React, Next.js, Node.js, and TypeScript.</p>
               <span class="services__item-toggle">+</span>
             </div>
             <div class="services__item-body">
@@ -131,13 +127,12 @@ export function renderHome() {
             </div>
           </div>
 
+          <!-- Service 002 -->
           <div class="services__item">
             <div class="services__item-header" data-accordion-header>
               <span class="services__item-index">002 ✳</span>
-              <div>
-                <h3 class="services__item-title"><span class="accent">CLOUD & SYSTEM</span><br>ARCHITECTURE</h3>
-                <p class="services__item-desc">Architecting fault-tolerant microservices, serverless backends, and event-driven cloud systems.</p>
-              </div>
+              <h3 class="services__item-title"><span class="accent">CLOUD & SYSTEM</span> ARCHITECTURE</h3>
+              <p class="services__item-desc">Architecting fault-tolerant microservices, serverless backends, and event-driven cloud systems.</p>
               <span class="services__item-toggle">+</span>
             </div>
             <div class="services__item-body">
@@ -157,13 +152,12 @@ export function renderHome() {
             </div>
           </div>
 
+          <!-- Service 003 -->
           <div class="services__item">
             <div class="services__item-header" data-accordion-header>
               <span class="services__item-index">003 ✳</span>
-              <div>
-                <h3 class="services__item-title"><span class="accent">REST & GRAPHQL</span><br>API ENGINEERING</h3>
-                <p class="services__item-desc">High-throughput backend APIs, secure authentication gateways, and microservice communication.</p>
-              </div>
+              <h3 class="services__item-title"><span class="accent">REST & GRAPHQL</span> API ENGINEERING</h3>
+              <p class="services__item-desc">High-throughput backend APIs, secure authentication gateways, and microservice communication.</p>
               <span class="services__item-toggle">+</span>
             </div>
             <div class="services__item-body">
@@ -183,18 +177,17 @@ export function renderHome() {
             </div>
           </div>
 
+          <!-- Service 004 -->
           <div class="services__item">
             <div class="services__item-header" data-accordion-header>
               <span class="services__item-index">004 ✳</span>
-              <div>
-                <h3 class="services__item-title"><span class="accent">DATABASE</span><br>DESIGN & CACHING</h3>
-                <p class="services__item-desc">Relational and NoSQL database modeling, high-performance indexing, and Redis caching layers.</p>
-              </div>
+              <h3 class="services__item-title"><span class="accent">DATABASE</span> DESIGN & CACHING</h3>
+              <p class="services__item-desc">Relational and NoSQL database modeling, high-performance indexing, and Redis caching layers.</p>
               <span class="services__item-toggle">+</span>
             </div>
             <div class="services__item-body">
               <div class="services__item-body-content">
-                <img src="https://images.unsplash.com/photo-1542744094-3a31727223ec?q=80&w=400&auto=format&fit=crop" alt="Database Architecture" class="services__item-image" />
+                <img src="/datasphere-db.jpg" alt="Database Architecture" class="services__item-image" />
                 <div>
                   <div class="services__item-tags">
                     <span class="pill-tag">PostgreSQL</span>
@@ -209,13 +202,12 @@ export function renderHome() {
             </div>
           </div>
 
+          <!-- Service 005 -->
           <div class="services__item">
             <div class="services__item-header" data-accordion-header>
               <span class="services__item-index">005 ✳</span>
-              <div>
-                <h3 class="services__item-title"><span class="accent">DEVOPS & CI/CD</span><br>PIPELINES</h3>
-                <p class="services__item-desc">Automated build and deployment pipelines, containerization, and zero-downtime releases.</p>
-              </div>
+              <h3 class="services__item-title"><span class="accent">DEVOPS & CI/CD</span> PIPELINES</h3>
+              <p class="services__item-desc">Automated build and deployment pipelines, containerization, and zero-downtime releases.</p>
               <span class="services__item-toggle">+</span>
             </div>
             <div class="services__item-body">
@@ -235,13 +227,12 @@ export function renderHome() {
             </div>
           </div>
 
+          <!-- Service 006 -->
           <div class="services__item">
             <div class="services__item-header" data-accordion-header>
               <span class="services__item-index">006 ✳</span>
-              <div>
-                <h3 class="services__item-title"><span class="accent">TECHNICAL</span><br>CONSULTING</h3>
-                <p class="services__item-desc">Codebase audits, architectural reviews, system performance profiling, and team mentoring.</p>
-              </div>
+              <h3 class="services__item-title"><span class="accent">TECHNICAL</span> CONSULTING</h3>
+              <p class="services__item-desc">Codebase audits, architectural reviews, system performance profiling, and team mentoring.</p>
               <span class="services__item-toggle">+</span>
             </div>
             <div class="services__item-body">
@@ -309,7 +300,7 @@ export function renderHome() {
 
           <div class="projects__card" data-hover>
             <div class="projects__card-image">
-              <img src="https://images.unsplash.com/photo-1542744094-3a31727223ec?q=80&w=600&auto=format&fit=crop" alt="DataSphere DB" />
+              <img src="/datasphere-db.jpg" alt="DataSphere DB" />
             </div>
             <div class="projects__card-info">
               <span class="projects__card-name"><span class="sparkle">✳</span> DataSphere DB</span>
@@ -329,7 +320,7 @@ export function renderHome() {
 
           <div class="projects__card" data-hover>
             <div class="projects__card-image">
-              <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=600&auto=format&fit=crop" alt="Vanguard Security" />
+              <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=600&auto=format&fit=crop" alt="Vanguard Security" />
             </div>
             <div class="projects__card-info">
               <span class="projects__card-name"><span class="sparkle">✳</span> Vanguard Sentinel</span>
@@ -525,7 +516,7 @@ export function renderHome() {
 
           <div class="insights__card" data-hover>
             <div class="insights__card-image">
-              <img src="https://images.unsplash.com/photo-1542744094-3a31727223ec?q=80&w=800&auto=format&fit=crop" alt="Database Optimization" />
+              <img src="/postgres-optimization.jpg" alt="Database Optimization" />
               <span class="insights__card-tag pill-tag pill-tag--accent">DATABASE</span>
             </div>
             <div class="insights__card-content">

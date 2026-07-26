@@ -31,6 +31,14 @@ async function handleRoute() {
     }
   }
 
+  // Track pageview in Google Analytics for SPA route changes
+  if (typeof window.gtag === 'function') {
+    window.gtag('config', 'G-DH28J1NVWV', {
+      page_path: path,
+      page_title: document.title
+    });
+  }
+
   const app = document.getElementById('app');
   
   // Fade out

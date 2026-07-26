@@ -16,7 +16,7 @@ export function renderBlogs() {
           <!-- Article 1 -->
           <a href="#" class="blogs-grid__card">
             <div class="blogs-grid__card-image">
-              <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=800&auto=format&fit=crop" alt="BUILDING SCALABLE MICROSERVICES WITH GO & DOCKER" />
+              <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=800&auto=format&fit=crop" alt="Building Scalable Microservices with Go and Docker - Article by Dharmik Gohil" title="Building Scalable Microservices with Go & Docker" loading="lazy" decoding="async" width="800" height="533" />
             </div>
             <div class="blogs-grid__card-content">
               <span class="pill-tag pill-tag--accent blogs-grid__card-tag">CLOUD</span>
@@ -28,7 +28,7 @@ export function renderBlogs() {
           <!-- Article 2 -->
           <a href="#" class="blogs-grid__card">
             <div class="blogs-grid__card-image">
-              <img src="/postgres-optimization.jpg" alt="OPTIMIZING DATABASE QUERY PERFORMANCE IN POSTGRESQL AT SCALE" />
+              <img src="/postgres-optimization.jpg" alt="Optimizing Database Query Performance in PostgreSQL at Scale - Technical Article by Dharmik Gohil" title="Optimizing PostgreSQL Performance at Scale" loading="lazy" decoding="async" width="800" height="533" />
             </div>
             <div class="blogs-grid__card-content">
               <span class="pill-tag pill-tag--accent blogs-grid__card-tag">DATABASE</span>
@@ -40,7 +40,7 @@ export function renderBlogs() {
           <!-- Article 3 -->
           <a href="#" class="blogs-grid__card">
             <div class="blogs-grid__card-image">
-              <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=800&auto=format&fit=crop" alt="NEXT.JS 15 SERVER COMPONENTS: ARCHITECTURE & BEST PRACTICES" />
+              <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=800&auto=format&fit=crop" alt="Next.js 15 Server Components Architecture and Best Practices - Article by Dharmik Gohil" title="Next.js 15 Server Components Architecture" loading="lazy" decoding="async" width="800" height="533" />
             </div>
             <div class="blogs-grid__card-content">
               <span class="pill-tag pill-tag--accent blogs-grid__card-tag">FULL STACK</span>
@@ -52,7 +52,7 @@ export function renderBlogs() {
           <!-- Article 4 -->
           <a href="#" class="blogs-grid__card">
             <div class="blogs-grid__card-image">
-              <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop" alt="DESIGNING RESILIENT DISTRIBUTED SYSTEMS WITH REDIS & KAFKA" />
+              <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop" alt="Designing Resilient Distributed Systems with Redis and Kafka - Article by Dharmik Gohil" title="Designing Resilient Distributed Systems" loading="lazy" decoding="async" width="800" height="533" />
             </div>
             <div class="blogs-grid__card-content">
               <span class="pill-tag pill-tag--accent blogs-grid__card-tag">SYSTEM DESIGN</span>
@@ -64,7 +64,7 @@ export function renderBlogs() {
           <!-- Article 5 -->
           <a href="#" class="blogs-grid__card">
             <div class="blogs-grid__card-image">
-              <img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?q=80&w=800&auto=format&fit=crop" alt="HIGH-THROUGHPUT GRAPHQL APIS WITH NODE.JS & PRISMA" />
+              <img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?q=80&w=800&auto=format&fit=crop" alt="High-Throughput GraphQL APIs with Node.js and Prisma - Article by Dharmik Gohil" title="High-Throughput GraphQL APIs" loading="lazy" decoding="async" width="800" height="533" />
             </div>
             <div class="blogs-grid__card-content">
               <span class="pill-tag pill-tag--accent blogs-grid__card-tag">API</span>
@@ -76,7 +76,7 @@ export function renderBlogs() {
           <!-- Article 6 -->
           <a href="#" class="blogs-grid__card">
             <div class="blogs-grid__card-image">
-              <img src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?q=80&w=800&auto=format&fit=crop" alt="DEV-TO-CLOUD: AUTOMATING ZERO-DOWNTIME CI/CD PIPELINES" />
+              <img src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?q=80&w=800&auto=format&fit=crop" alt="Dev-to-Cloud Automating Zero-Downtime CI/CD Pipelines - Article by Dharmik Gohil" title="Automating Zero-Downtime CI/CD Pipelines" loading="lazy" decoding="async" width="800" height="533" />
             </div>
             <div class="blogs-grid__card-content">
               <span class="pill-tag pill-tag--accent blogs-grid__card-tag">DEVOPS</span>

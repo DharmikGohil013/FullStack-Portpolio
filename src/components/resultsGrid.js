@@ -14,7 +14,7 @@ export function renderResultsGrid() {
           </div>
           
           <div class="results__card results__card--image">
-            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=800&auto=format&fit=crop" alt="System Code Architecture" />
+            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=800&auto=format&fit=crop" alt="Dharmik Gohil - Full Stack System Code Architecture and Software Engineering" title="Full Stack System Code Architecture - Dharmik Gohil" loading="lazy" decoding="async" width="800" height="533" />
           </div>
           
           <div class="results__card">
@@ -28,7 +28,7 @@ export function renderResultsGrid() {
             </div>
             <p class="results__card-quote">"Dharmik architected an exceptional distributed API system for our platform launch. His attention to code quality, system performance, and database indexing is world-class."</p>
             <div class="results__card-reviewer">
-              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop" alt="Reviewer" />
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop" alt="Arjun Mehta - VP of Engineering at TechNova reviewing Dharmik Gohil" title="Client Reviewer - Arjun Mehta" loading="lazy" decoding="async" width="100" height="100" />
               <div>
                 <div class="results__card-reviewer-name">Arjun Mehta</div>
                 <div class="results__card-reviewer-title">VP of Engineering, TechNova</div>
@@ -52,7 +52,7 @@ export function renderResultsGrid() {
         </div>
         
         <div class="results__bts reveal">
-          <img src="/blue-doodle-pattern.png" alt="Behind the scenes doodle pattern" />
+          <img src="/blue-doodle-pattern.png" alt="Dharmik Gohil Portfolio - Behind the scenes blue abstract doodle background pattern" title="Behind the Scenes Doodle Pattern" loading="lazy" decoding="async" width="1200" height="400" />
         </div>
       </div>
     </section>

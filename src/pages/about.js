@@ -33,16 +33,16 @@ export function renderAbout() {
         <!-- Gallery Strip -->
         <div class="about-gallery reveal-stagger">
           <div class="about-gallery__img">
-            <img src="https://dharmikgohil.art/assets/img/blog/hackron/hackathon-7.jpg" alt="Dharmik Gohil Hackathon Coding Session" />
+            <img src="https://dharmikgohil.art/assets/img/blog/hackron/hackathon-7.jpg" alt="Dharmik Gohil Hackathon Live Coding Session - System Architecture Development" title="Dharmik Gohil Hackathon Coding Session" loading="lazy" decoding="async" width="600" height="400" />
           </div>
           <div class="about-gallery__img">
-            <img src="https://dharmikgohil.art/assets/img/blog/charusat-expo/expo-5.jpg" alt="CHARUSAT Expo 3.0 Presentation" />
+            <img src="https://dharmikgohil.art/assets/img/blog/charusat-expo/expo-5.jpg" alt="Dharmik Gohil presenting Tech Project at CHARUSAT Expo 3.0" title="CHARUSAT Expo 3.0 Presentation by Dharmik Gohil" loading="lazy" decoding="async" width="600" height="400" />
           </div>
           <div class="about-gallery__img">
-            <img src="https://dharmikgohil.art/assets/img/blog/hackron/team-2.jpg" alt="Team Bug Busters Hackron Hackathon 2025" class="rotate-90" />
+            <img src="https://dharmikgohil.art/assets/img/blog/hackron/team-2.jpg" alt="Team Bug Busters with Dharmik Gohil at Hackron Hackathon 2025 by Amazon & Blinkit" title="Team Bug Busters - Hackron Hackathon 2025" class="rotate-90" loading="lazy" decoding="async" width="600" height="400" />
           </div>
           <div class="about-gallery__img">
-            <img src="https://dharmikgohil.art/assets/img/blog/charusat-expo/expo-6.jpg" alt="CHARUSAT Expo Exhibition Celebration" />
+            <img src="https://dharmikgohil.art/assets/img/blog/charusat-expo/expo-6.jpg" alt="Dharmik Gohil celebrating Tech Innovation Award at CHARUSAT Expo Exhibition" title="CHARUSAT Expo Innovation Celebration" loading="lazy" decoding="async" width="600" height="400" />
           </div>
         </div>
       </div>
@@ -73,9 +73,9 @@ export function renderAbout() {
         </div>
         <div class="about-statement__trust reveal">
           <div class="about-statement__trust-avatars">
-            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=100&auto=format&fit=crop" alt="Client" />
-            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=100&auto=format&fit=crop" alt="Client" />
-            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=100&auto=format&fit=crop" alt="Client" />
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=100&auto=format&fit=crop" alt="Dharmik Gohil Enterprise Client - Tech Lead Avatar" title="Enterprise Client Reviewer" loading="lazy" decoding="async" width="100" height="100" />
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=100&auto=format&fit=crop" alt="Dharmik Gohil System Architecture Client - VP Engineering Avatar" title="VP Engineering Client Avatar" loading="lazy" decoding="async" width="100" height="100" />
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=100&auto=format&fit=crop" alt="Dharmik Gohil Cloud Infrastructure Client - Director Avatar" title="Director Client Avatar" loading="lazy" decoding="async" width="100" height="100" />
           </div>
           <div class="about-statement__trust-text">
             <div style="display: inline-flex; gap: 2px; align-items: center;">
@@ -103,21 +103,21 @@ export function renderAbout() {
         </h2>
         <div class="career__cards reveal-stagger">
           <div class="career__card" data-hover>
-            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=700&auto=format&fit=crop" alt="Senior Software Engineer" />
+            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=700&auto=format&fit=crop" alt="Dharmik Gohil - Senior Full Stack Software Engineer at Tech Scale Inc" title="Senior Full Stack Software Engineer" loading="lazy" decoding="async" width="700" height="466" />
             <div class="career__card-overlay">
               <div class="career__card-name">Tech Scale Inc</div>
               <div class="career__card-period">SENIOR_FULL_STACK_ENGINEER_[2023-PRESENT]</div>
             </div>
           </div>
           <div class="career__card" data-hover>
-            <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=700&auto=format&fit=crop" alt="System Architect" />
+            <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=700&auto=format&fit=crop" alt="Dharmik Gohil - Distributed System Architect and Engineering Consultant" title="System Architect & Consultant" loading="lazy" decoding="async" width="700" height="466" />
             <div class="career__card-overlay">
               <div class="career__card-name">Independent Consultant</div>
               <div class="career__card-period">SYSTEM_ARCHITECT_[2022-PRESENT]</div>
             </div>
           </div>
           <div class="career__card" data-hover>
-            <img src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?q=80&w=700&auto=format&fit=crop" alt="Co-Founder & Tech Lead" />
+            <img src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?q=80&w=700&auto=format&fit=crop" alt="Dharmik Gohil - Co-Founder & Tech Lead at Dev Collective" title="Co-Founder & Tech Lead" loading="lazy" decoding="async" width="700" height="466" />
             <div class="career__card-overlay">
               <div class="career__card-name">Dev Collective</div>
               <div class="career__card-period">CO-FOUNDER_&_TECH_LEAD_[2021-PRESENT]</div>

@@ -20,11 +20,11 @@ export function renderHome() {
       </div>
 
       <div class="hero__portrait">
-        <img src="/dharmik-persona.png" alt="Dharmik Gohil" />
+        <img src="/dharmik-persona.png" alt="Dharmik Gohil — Full Stack Software Engineer & System Architect" title="Dharmik Gohil - Software Engineer" fetchpriority="high" loading="eager" decoding="async" width="800" height="950" />
       </div>
 
       <div class="hero__featured-card">
-        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=400&auto=format&fit=crop" alt="Featured System" />
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=400&auto=format&fit=crop" alt="Nexus Cloud Engine - Scalable Cloud Architecture by Dharmik Gohil" title="Nexus Cloud Engine Architecture" loading="lazy" decoding="async" width="400" height="267" />
         <div class="hero__featured-card-info">
           <span>NEXUS</span>
           <span>/ Cloud Engine</span>
@@ -61,14 +61,14 @@ export function renderHome() {
         <div class="about__grid">
           <div class="about__images">
             <div class="about__img-frame about__img-frame--large reveal">
-              <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=600&auto=format&fit=crop" alt="System Architecture" />
+              <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=600&auto=format&fit=crop" alt="Scalable Microservices Architecture and Distributed Infrastructure by Dharmik Gohil" title="Microservices System Architecture" loading="lazy" decoding="async" width="600" height="400" />
             </div>
           </div>
           <div class="about__text">
             <div class="about__eyebrow eyebrow reveal">SCALABLE SYSTEM DESIGN.</div>
             <h2 class="about__heading heading-two-tone reveal">MY IMPACT THROUGH<br>SOFTWARE<br><span class="gray">ENGINEERING</span></h2>
             <span class="about__sparkle reveal">✳</span>
-            <img src="/code-raider.png" alt="Code Raider Logo" class="about__portrait-small" />
+            <img src="/code-raider.png" alt="Code Raider Clash Champion Logo - Awarded to Dharmik Gohil" title="Code Raider Clash Winner" class="about__portrait-small" loading="lazy" decoding="async" width="120" height="120" />
             <p class="about__bio reveal">
               Hi, I'm Dharmik Gohil, a Full Stack Software Engineer & System Architect specializing in scalable web applications, distributed microservices, and modern frontend systems. I combine technical depth with clean architecture to build resilient digital platforms.
             </p>
@@ -112,7 +112,7 @@ export function renderHome() {
             </div>
             <div class="services__item-body">
               <div class="services__item-body-content">
-                <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=400&auto=format&fit=crop" alt="Full Stack Development" class="services__item-image" />
+                <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=400&auto=format&fit=crop" alt="Full Stack Web Development Services - React, Next.js, Node.js by Dharmik Gohil" title="Full Stack Web Development" class="services__item-image" loading="lazy" decoding="async" width="400" height="267" />
                 <div>
                   <div class="services__item-tags">
                     <span class="pill-tag">React / Next.js</span>
@@ -137,7 +137,7 @@ export function renderHome() {
             </div>
             <div class="services__item-body">
               <div class="services__item-body-content">
-                <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=400&auto=format&fit=crop" alt="Cloud Architecture" class="services__item-image" />
+                <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=400&auto=format&fit=crop" alt="Cloud & Microservices System Architecture Services by Dharmik Gohil" title="Cloud & System Architecture" class="services__item-image" loading="lazy" decoding="async" width="400" height="267" />
                 <div>
                   <div class="services__item-tags">
                     <span class="pill-tag">Microservices</span>
@@ -162,7 +162,7 @@ export function renderHome() {
             </div>
             <div class="services__item-body">
               <div class="services__item-body-content">
-                <img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?q=80&w=400&auto=format&fit=crop" alt="API Engineering" class="services__item-image" />
+                <img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?q=80&w=400&auto=format&fit=crop" alt="REST and GraphQL API Engineering Services by Dharmik Gohil" title="REST & GraphQL API Engineering" class="services__item-image" loading="lazy" decoding="async" width="400" height="267" />
                 <div>
                   <div class="services__item-tags">
                     <span class="pill-tag">GraphQL</span>
@@ -187,7 +187,7 @@ export function renderHome() {
             </div>
             <div class="services__item-body">
               <div class="services__item-body-content">
-                <img src="/datasphere-db.jpg" alt="Database Architecture" class="services__item-image" />
+                <img src="/datasphere-db.jpg" alt="Database Architecture, PostgreSQL and Redis Caching Services by Dharmik Gohil" title="Database Design & Caching" class="services__item-image" loading="lazy" decoding="async" width="400" height="267" />
                 <div>
                   <div class="services__item-tags">
                     <span class="pill-tag">PostgreSQL</span>
@@ -212,7 +212,7 @@ export function renderHome() {
             </div>
             <div class="services__item-body">
               <div class="services__item-body-content">
-                <img src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?q=80&w=400&auto=format&fit=crop" alt="DevOps CI/CD" class="services__item-image" />
+                <img src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?q=80&w=400&auto=format&fit=crop" alt="DevOps, Docker, CI/CD Pipeline Automation Services by Dharmik Gohil" title="DevOps & CI/CD Pipelines" class="services__item-image" loading="lazy" decoding="async" width="400" height="267" />
                 <div>
                   <div class="services__item-tags">
                     <span class="pill-tag">GitHub Actions</span>
@@ -237,7 +237,7 @@ export function renderHome() {
             </div>
             <div class="services__item-body">
               <div class="services__item-body-content">
-                <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=400&auto=format&fit=crop" alt="Technical Consulting" class="services__item-image" />
+                <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=400&auto=format&fit=crop" alt="Software Architecture Technical Consulting by Dharmik Gohil" title="Technical Consulting" class="services__item-image" loading="lazy" decoding="async" width="400" height="267" />
                 <div>
                   <div class="services__item-tags">
                     <span class="pill-tag">Code Audit</span>
@@ -270,7 +270,7 @@ export function renderHome() {
         <div class="projects__grid reveal-stagger">
           <div class="projects__card" data-hover>
             <div class="projects__card-image">
-              <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=600&auto=format&fit=crop" alt="Nexus Cloud Platform" />
+              <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=600&auto=format&fit=crop" alt="Nexus Cloud Engine - Distributed Cloud Microservices Platform by Dharmik Gohil" title="Nexus Cloud Engine" loading="lazy" decoding="async" width="600" height="400" />
             </div>
             <div class="projects__card-info">
               <span class="projects__card-name"><span class="sparkle">✳</span> Nexus Cloud Engine</span>
@@ -280,7 +280,7 @@ export function renderHome() {
 
           <div class="projects__card" data-hover>
             <div class="projects__card-image">
-              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=600&auto=format&fit=crop" alt="DevPulse Dashboard" />
+              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=600&auto=format&fit=crop" alt="DevPulse Analytics - Real-time SaaS Web Application by Dharmik Gohil" title="DevPulse Analytics" loading="lazy" decoding="async" width="600" height="400" />
             </div>
             <div class="projects__card-info">
               <span class="projects__card-name"><span class="sparkle">✳</span> DevPulse Analytics</span>
@@ -290,7 +290,7 @@ export function renderHome() {
 
           <div class="projects__card" data-hover>
             <div class="projects__card-image">
-              <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=600&auto=format&fit=crop" alt="HyperScale Gateway" />
+              <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=600&auto=format&fit=crop" alt="HyperScale Gateway - High Throughput Distributed API Gateway by Dharmik Gohil" title="HyperScale Gateway" loading="lazy" decoding="async" width="600" height="400" />
             </div>
             <div class="projects__card-info">
               <span class="projects__card-name"><span class="sparkle">✳</span> HyperScale Gateway</span>
@@ -300,7 +300,7 @@ export function renderHome() {
 
           <div class="projects__card" data-hover>
             <div class="projects__card-image">
-              <img src="/datasphere-db.jpg" alt="DataSphere DB" />
+              <img src="/datasphere-db.jpg" alt="DataSphere DB - Optimized Distributed Relational Database System by Dharmik Gohil" title="DataSphere DB" loading="lazy" decoding="async" width="600" height="400" />
             </div>
             <div class="projects__card-info">
               <span class="projects__card-name"><span class="sparkle">✳</span> DataSphere DB</span>
@@ -310,7 +310,7 @@ export function renderHome() {
 
           <div class="projects__card" data-hover>
             <div class="projects__card-image">
-              <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=600&auto=format&fit=crop" alt="FlowCraft App" />
+              <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=600&auto=format&fit=crop" alt="FlowCraft Studio - Dynamic Frontend Web Application Architecture by Dharmik Gohil" title="FlowCraft Studio" loading="lazy" decoding="async" width="600" height="400" />
             </div>
             <div class="projects__card-info">
               <span class="projects__card-name"><span class="sparkle">✳</span> FlowCraft Studio</span>
@@ -320,7 +320,7 @@ export function renderHome() {
 
           <div class="projects__card" data-hover>
             <div class="projects__card-image">
-              <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=600&auto=format&fit=crop" alt="Vanguard Security" />
+              <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=600&auto=format&fit=crop" alt="Vanguard Sentinel - Enterprise DevOps and Cloud Security System by Dharmik Gohil" title="Vanguard Sentinel" loading="lazy" decoding="async" width="600" height="400" />
             </div>
             <div class="projects__card-info">
               <span class="projects__card-name"><span class="sparkle">✳</span> Vanguard Sentinel</span>
@@ -505,7 +505,7 @@ export function renderHome() {
         <div class="insights__grid reveal-stagger">
           <div class="insights__card" data-hover>
             <div class="insights__card-image">
-              <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=800&auto=format&fit=crop" alt="Microservices Architecture" />
+              <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=800&auto=format&fit=crop" alt="Building Scalable Microservices with Go and Docker - Article by Dharmik Gohil" title="Building Scalable Microservices with Go & Docker" loading="lazy" decoding="async" width="800" height="533" />
               <span class="insights__card-tag pill-tag pill-tag--accent">CLOUD</span>
             </div>
             <div class="insights__card-content">
@@ -516,7 +516,7 @@ export function renderHome() {
 
           <div class="insights__card" data-hover>
             <div class="insights__card-image">
-              <img src="/postgres-optimization.jpg" alt="Database Optimization" />
+              <img src="/postgres-optimization.jpg" alt="Optimizing Database Query Performance in PostgreSQL at Scale - Technical Article by Dharmik Gohil" title="Optimizing PostgreSQL Performance at Scale" loading="lazy" decoding="async" width="800" height="533" />
               <span class="insights__card-tag pill-tag pill-tag--accent">DATABASE</span>
             </div>
             <div class="insights__card-content">
@@ -527,7 +527,7 @@ export function renderHome() {
 
           <div class="insights__card" data-hover>
             <div class="insights__card-image">
-              <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=800&auto=format&fit=crop" alt="Next.js Architecture" />
+              <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=800&auto=format&fit=crop" alt="Next.js 15 Server Components Architecture and Best Practices - Article by Dharmik Gohil" title="Next.js 15 Server Components Architecture" loading="lazy" decoding="async" width="800" height="533" />
               <span class="insights__card-tag pill-tag pill-tag--accent">FULL STACK</span>
             </div>
             <div class="insights__card-content">

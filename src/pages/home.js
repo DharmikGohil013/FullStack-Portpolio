@@ -14,7 +14,7 @@ export function renderHome() {
 
       <div class="hero__content">
         <div class="hero__left">
-          <p class="hero__tagline">I DESIGN & BUILD SCALABLE WEB APPLICATIONS, DISTRIBUTED SYSTEM ARCHITECTURES, AND HIGH-PERFORMANCE CLOUD PLATFORMS.</p>
+          <p class="hero__tagline">I DESIGN & BUILD SCALABLE WEB APPLICATIONS, ERPNEXT CUSTOMIZATIONS, CRM PLATFORMS, AND HIGH-PERFORMANCE CLOUD ARCHITECTURES.</p>
         </div>
         <div></div>
       </div>
@@ -24,10 +24,10 @@ export function renderHome() {
       </div>
 
       <div class="hero__featured-card">
-        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=400&auto=format&fit=crop" alt="Nexus Cloud Engine - Scalable Cloud Architecture by Dharmik Gohil" title="Nexus Cloud Engine Architecture" loading="lazy" decoding="async" width="400" height="267" />
+        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=400&auto=format&fit=crop" alt="ERPNext Enterprise Hub - Custom ERP & CRM Architecture by Dharmik Gohil" title="ERPNext Enterprise Architecture" loading="lazy" decoding="async" width="400" height="267" />
         <div class="hero__featured-card-info">
-          <span>NEXUS</span>
-          <span>/ Cloud Engine</span>
+          <span>ERPNEXT</span>
+          <span>/ Enterprise Hub</span>
         </div>
       </div>
 
@@ -41,7 +41,7 @@ export function renderHome() {
           <div class="hero__contact-card-text">
             <div class="hero__contact-card-label">Let's Talk</div>
             <div class="hero__contact-card-name">Dharmik Gohil</div>
-            <div class="hero__contact-card-role">Full Stack Software Engineer & System Architect</div>
+            <div class="hero__contact-card-role">Full Stack Engineer, ERPNext & CRM Specialist</div>
           </div>
           <a href="#/contact" class="hero__contact-card-btn" data-hover>→</a>
         </div>
@@ -61,29 +61,29 @@ export function renderHome() {
         <div class="about__grid">
           <div class="about__images">
             <div class="about__img-frame about__img-frame--large reveal">
-              <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=600&auto=format&fit=crop" alt="Scalable Microservices Architecture and Distributed Infrastructure by Dharmik Gohil" title="Microservices System Architecture" loading="lazy" decoding="async" width="600" height="400" />
+              <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=600&auto=format&fit=crop" alt="Scalable Enterprise Systems, ERPNext and CRM Infrastructure by Dharmik Gohil" title="Enterprise Systems Architecture" loading="lazy" decoding="async" width="600" height="400" />
             </div>
           </div>
           <div class="about__text">
-            <div class="about__eyebrow eyebrow reveal">SCALABLE SYSTEM DESIGN.</div>
+            <div class="about__eyebrow eyebrow reveal">SCALABLE SYSTEM DESIGN & ENTERPRISE SOLUTIONS</div>
             <h2 class="about__heading heading-two-tone reveal">MY IMPACT THROUGH<br>SOFTWARE<br><span class="gray">ENGINEERING</span></h2>
             <span class="about__sparkle reveal">✳</span>
             <img src="/code-raider.png" alt="Code Raider Clash Champion Logo - Awarded to Dharmik Gohil" title="Code Raider Clash Winner" class="about__portrait-small" loading="lazy" decoding="async" width="120" height="120" />
             <p class="about__bio reveal">
-              Hi, I'm Dharmik Gohil, a Full Stack Software Engineer & System Architect specializing in scalable web applications, distributed microservices, and modern frontend systems. I combine technical depth with clean architecture to build resilient digital platforms.
+              Hi, I'm Dharmik Gohil, a Full Stack Software Engineer & System Architect specializing in custom ERPNext implementations, Frappe framework development, high-throughput CRM platforms, scalable microservices, and modern web applications.
             </p>
             <div class="about__stats reveal">
               <div class="about__stat">
                 <div class="about__stat-icon">✳</div>
-                <div class="about__stat-number" data-count="12" data-suffix="+">0+</div>
+                <div class="about__stat-number" data-count="15" data-suffix="+">0+</div>
                 <div class="about__stat-label">SYSTEMS DEPLOYED</div>
-                <p class="about__stat-desc">Successfully architected and deployed full stack applications, APIs, and cloud services.</p>
+                <p class="about__stat-desc">Successfully architected and deployed full stack applications, ERPNext modules, CRM systems, and cloud APIs.</p>
               </div>
               <div class="about__stat">
                 <div class="about__stat-icon">✳</div>
-                <div class="about__stat-number" data-count="6" data-suffix="+">0+</div>
+                <div class="about__stat-number" data-count="8" data-suffix="+">0+</div>
                 <div class="about__stat-label">HAPPY CLIENTS</div>
-                <p class="about__stat-desc">Global clients trust my code for reliability, speed, security, and clean system design.</p>
+                <p class="about__stat-desc">Global clients trust my code for business automation, CRM performance, speed, security, and clean system design.</p>
               </div>
             </div>
           </div>
@@ -97,7 +97,7 @@ export function renderHome() {
         <div class="services__header reveal">
           <div>
             <div class="eyebrow">OUR SERVICES</div>
-            <h2 class="heading-two-tone" style="font-size: clamp(2.5rem, 4vw, 3.5rem); margin-top: 1rem;">SCALABLE SOFTWARE SERVICES <span class="gray">FOR YOUR BUSINESS</span></h2>
+            <h2 class="heading-two-tone" style="font-size: clamp(2.5rem, 4vw, 3.5rem); margin-top: 1rem;">SCALABLE SOFTWARE & ENTERPRISE SERVICES <span class="gray">FOR YOUR BUSINESS</span></h2>
           </div>
         </div>
 
@@ -131,6 +131,56 @@ export function renderHome() {
           <div class="services__item">
             <div class="services__item-header" data-accordion-header>
               <span class="services__item-index">002 ✳</span>
+              <h3 class="services__item-title"><span class="accent">ERPNEXT & FRAPPE</span> CUSTOMIZATION</h3>
+              <p class="services__item-desc">Tailored ERPNext modules, custom DocTypes, automated workflow triggers, HRMS/Inventory automation, and Frappe script extensions.</p>
+              <span class="services__item-toggle">+</span>
+            </div>
+            <div class="services__item-body">
+              <div class="services__item-body-content">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=400&auto=format&fit=crop" alt="ERPNext and Frappe Framework Customization Services by Dharmik Gohil" title="ERPNext & Frappe Customization" class="services__item-image" loading="lazy" decoding="async" width="400" height="267" />
+                <div>
+                  <div class="services__item-tags">
+                    <span class="pill-tag">ERPNext Modules</span>
+                    <span class="pill-tag">Frappe Framework</span>
+                    <span class="pill-tag">Custom DocTypes</span>
+                    <span class="pill-tag">Python & MariaDB</span>
+                    <span class="pill-tag">Workflow Automation</span>
+                  </div>
+                  <a href="#/services" class="btn btn--accent services__item-btn" data-hover>EXPLORE SERVICES <span class="btn__arrow">→</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 003 -->
+          <div class="services__item">
+            <div class="services__item-header" data-accordion-header>
+              <span class="services__item-index">003 ✳</span>
+              <h3 class="services__item-title"><span class="accent">CUSTOM CRM & SALES</span> PLATFORMS</h3>
+              <p class="services__item-desc">Designing multi-tenant CRM systems with automated lead pipelines, email/WhatsApp triggers, deal forecasting, and customer portals.</p>
+              <span class="services__item-toggle">+</span>
+            </div>
+            <div class="services__item-body">
+              <div class="services__item-body-content">
+                <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=400&auto=format&fit=crop" alt="Custom CRM Platform and Sales Pipeline Development by Dharmik Gohil" title="Custom CRM & Sales Platforms" class="services__item-image" loading="lazy" decoding="async" width="400" height="267" />
+                <div>
+                  <div class="services__item-tags">
+                    <span class="pill-tag">CRM Pipelines</span>
+                    <span class="pill-tag">Lead Management</span>
+                    <span class="pill-tag">WhatsApp API Integration</span>
+                    <span class="pill-tag">Analytics Dashboard</span>
+                    <span class="pill-tag">Omnichannel CRM</span>
+                  </div>
+                  <a href="#/services" class="btn btn--accent services__item-btn" data-hover>EXPLORE SERVICES <span class="btn__arrow">→</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 004 -->
+          <div class="services__item">
+            <div class="services__item-header" data-accordion-header>
+              <span class="services__item-index">004 ✳</span>
               <h3 class="services__item-title"><span class="accent">CLOUD & SYSTEM</span> ARCHITECTURE</h3>
               <p class="services__item-desc">Architecting fault-tolerant microservices, serverless backends, and event-driven cloud systems.</p>
               <span class="services__item-toggle">+</span>
@@ -152,10 +202,10 @@ export function renderHome() {
             </div>
           </div>
 
-          <!-- Service 003 -->
+          <!-- Service 005 -->
           <div class="services__item">
             <div class="services__item-header" data-accordion-header>
-              <span class="services__item-index">003 ✳</span>
+              <span class="services__item-index">005 ✳</span>
               <h3 class="services__item-title"><span class="accent">REST & GRAPHQL</span> API ENGINEERING</h3>
               <p class="services__item-desc">High-throughput backend APIs, secure authentication gateways, and microservice communication.</p>
               <span class="services__item-toggle">+</span>
@@ -177,10 +227,10 @@ export function renderHome() {
             </div>
           </div>
 
-          <!-- Service 004 -->
+          <!-- Service 006 -->
           <div class="services__item">
             <div class="services__item-header" data-accordion-header>
-              <span class="services__item-index">004 ✳</span>
+              <span class="services__item-index">006 ✳</span>
               <h3 class="services__item-title"><span class="accent">DATABASE</span> DESIGN & CACHING</h3>
               <p class="services__item-desc">Relational and NoSQL database modeling, high-performance indexing, and Redis caching layers.</p>
               <span class="services__item-toggle">+</span>
@@ -201,56 +251,6 @@ export function renderHome() {
               </div>
             </div>
           </div>
-
-          <!-- Service 005 -->
-          <div class="services__item">
-            <div class="services__item-header" data-accordion-header>
-              <span class="services__item-index">005 ✳</span>
-              <h3 class="services__item-title"><span class="accent">DEVOPS & CI/CD</span> PIPELINES</h3>
-              <p class="services__item-desc">Automated build and deployment pipelines, containerization, and zero-downtime releases.</p>
-              <span class="services__item-toggle">+</span>
-            </div>
-            <div class="services__item-body">
-              <div class="services__item-body-content">
-                <img src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?q=80&w=400&auto=format&fit=crop" alt="DevOps, Docker, CI/CD Pipeline Automation Services by Dharmik Gohil" title="DevOps & CI/CD Pipelines" class="services__item-image" loading="lazy" decoding="async" width="400" height="267" />
-                <div>
-                  <div class="services__item-tags">
-                    <span class="pill-tag">GitHub Actions</span>
-                    <span class="pill-tag">Docker</span>
-                    <span class="pill-tag">Vercel / AWS</span>
-                    <span class="pill-tag">Terraform</span>
-                    <span class="pill-tag">Monitoring</span>
-                  </div>
-                  <a href="#/services" class="btn btn--accent services__item-btn" data-hover>EXPLORE SERVICES <span class="btn__arrow">→</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Service 006 -->
-          <div class="services__item">
-            <div class="services__item-header" data-accordion-header>
-              <span class="services__item-index">006 ✳</span>
-              <h3 class="services__item-title"><span class="accent">TECHNICAL</span> CONSULTING</h3>
-              <p class="services__item-desc">Codebase audits, architectural reviews, system performance profiling, and team mentoring.</p>
-              <span class="services__item-toggle">+</span>
-            </div>
-            <div class="services__item-body">
-              <div class="services__item-body-content">
-                <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=400&auto=format&fit=crop" alt="Software Architecture Technical Consulting by Dharmik Gohil" title="Technical Consulting" class="services__item-image" loading="lazy" decoding="async" width="400" height="267" />
-                <div>
-                  <div class="services__item-tags">
-                    <span class="pill-tag">Code Audit</span>
-                    <span class="pill-tag">System Refactoring</span>
-                    <span class="pill-tag">Performance Tuning</span>
-                    <span class="pill-tag">Security Audit</span>
-                    <span class="pill-tag">Tech Architecture</span>
-                  </div>
-                  <a href="#/services" class="btn btn--accent services__item-btn" data-hover>EXPLORE SERVICES <span class="btn__arrow">→</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
 
         <div class="services__load-more reveal">
@@ -264,10 +264,40 @@ export function renderHome() {
       <div class="container">
         <div class="projects__header reveal">
           <div class="eyebrow">PORTFOLIO</div>
-          <h2 class="heading-two-tone" style="font-size: clamp(2.5rem, 5vw, 4rem); margin-top: 1rem;">FEATURED <span class="gray">SYSTEMS.</span></h2>
+          <h2 class="heading-two-tone" style="font-size: clamp(2.5rem, 5vw, 4rem); margin-top: 1rem;">FEATURED <span class="gray">SYSTEMS & PROJECTS.</span></h2>
         </div>
 
         <div class="projects__grid reveal-stagger">
+          <div class="projects__card" data-hover>
+            <div class="projects__card-image">
+              <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=600&auto=format&fit=crop" alt="ERPNext Enterprise Operations Hub - Custom ERP Solution by Dharmik Gohil" title="ERPNext Enterprise Operations Hub" loading="lazy" decoding="async" width="600" height="400" />
+            </div>
+            <div class="projects__card-info">
+              <span class="projects__card-name"><span class="sparkle">✳</span> ERPNext Enterprise Hub</span>
+              <span class="projects__card-category">/ERPNext & Enterprise ERP</span>
+            </div>
+          </div>
+
+          <div class="projects__card" data-hover>
+            <div class="projects__card-image">
+              <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=600&auto=format&fit=crop" alt="OmniFlow CRM Platform - Multi-tenant Sales Pipeline Suite by Dharmik Gohil" title="OmniFlow CRM Platform" loading="lazy" decoding="async" width="600" height="400" />
+            </div>
+            <div class="projects__card-info">
+              <span class="projects__card-name"><span class="sparkle">✳</span> OmniFlow CRM Platform</span>
+              <span class="projects__card-category">/CRM & Sales Automation</span>
+            </div>
+          </div>
+
+          <div class="projects__card" data-hover>
+            <div class="projects__card-image">
+              <img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?q=80&w=600&auto=format&fit=crop" alt="FrappeERP E-Commerce Sync Engine - Async Middleware Integration by Dharmik Gohil" title="FrappeERP E-Commerce Sync Engine" loading="lazy" decoding="async" width="600" height="400" />
+            </div>
+            <div class="projects__card-info">
+              <span class="projects__card-name"><span class="sparkle">✳</span> FrappeERP Sync Engine</span>
+              <span class="projects__card-category">/ERPNext Middleware</span>
+            </div>
+          </div>
+
           <div class="projects__card" data-hover>
             <div class="projects__card-image">
               <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=600&auto=format&fit=crop" alt="Nexus Cloud Engine - Distributed Cloud Microservices Platform by Dharmik Gohil" title="Nexus Cloud Engine" loading="lazy" decoding="async" width="600" height="400" />
@@ -285,16 +315,6 @@ export function renderHome() {
             <div class="projects__card-info">
               <span class="projects__card-name"><span class="sparkle">✳</span> DevPulse Analytics</span>
               <span class="projects__card-category">/SaaS Web Application</span>
-            </div>
-          </div>
-
-          <div class="projects__card" data-hover>
-            <div class="projects__card-image">
-              <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=600&auto=format&fit=crop" alt="HyperScale Gateway - High Throughput Distributed API Gateway by Dharmik Gohil" title="HyperScale Gateway" loading="lazy" decoding="async" width="600" height="400" />
-            </div>
-            <div class="projects__card-info">
-              <span class="projects__card-name"><span class="sparkle">✳</span> HyperScale Gateway</span>
-              <span class="projects__card-category">/Distributed API</span>
             </div>
           </div>
 
@@ -441,11 +461,11 @@ export function renderHome() {
             </div>
             <ul class="pricing__card-features">
               <li><span class="icon">→</span> Full Stack Web Platform</li>
+              <li><span class="icon">→</span> ERPNext / Custom CRM Module</li>
               <li><span class="icon">→</span> Microservices & Cloud Setup</li>
               <li><span class="icon">→</span> Advanced Database & Caching</li>
               <li><span class="icon">→</span> CI/CD & Automated Testing</li>
               <li><span class="icon">→</span> Security & Auth Gateway</li>
-              <li><span class="icon">→</span> Complete Source Code</li>
               <li><span class="icon">→</span> 3 Months Support</li>
             </ul>
             <div class="pricing__card-guarantee">
@@ -471,12 +491,12 @@ export function renderHome() {
               <span class="pricing__card-price-suffix">/Month</span>
             </div>
             <ul class="pricing__card-features">
+              <li><span class="icon">→</span> Full ERPNext Enterprise Setup</li>
+              <li><span class="icon">→</span> Multi-Tenant CRM Platform</li>
               <li><span class="icon">→</span> Distributed System Architecture</li>
               <li><span class="icon">→</span> Enterprise Multi-tenant Cloud</li>
-              <li><span class="icon">→</span> High Throughput Data Pipelines</li>
               <li><span class="icon">→</span> Dedicated DevOps Support</li>
               <li><span class="icon">→</span> 24/7 System Monitoring</li>
-              <li><span class="icon">→</span> Full Architecture Docs</li>
               <li><span class="icon">→</span> 6 Months Support</li>
             </ul>
             <div class="pricing__card-guarantee">
@@ -505,11 +525,22 @@ export function renderHome() {
         <div class="insights__grid reveal-stagger">
           <div class="insights__card" data-hover>
             <div class="insights__card-image">
-              <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=800&auto=format&fit=crop" alt="Building Scalable Microservices with Go and Docker - Article by Dharmik Gohil" title="Building Scalable Microservices with Go & Docker" loading="lazy" decoding="async" width="800" height="533" />
-              <span class="insights__card-tag pill-tag pill-tag--accent">CLOUD</span>
+              <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop" alt="Building Custom ERPNext Modules with Frappe Framework - Article by Dharmik Gohil" title="Building Custom ERPNext Modules with Frappe" loading="lazy" decoding="async" width="800" height="533" />
+              <span class="insights__card-tag pill-tag pill-tag--accent">ERPNEXT</span>
             </div>
             <div class="insights__card-content">
-              <h3 class="insights__card-title">BUILDING SCALABLE MICROSERVICES WITH GO & DOCKER</h3>
+              <h3 class="insights__card-title">BUILDING CUSTOM ERPNEXT MODULES & WORKFLOWS WITH FRAPPE</h3>
+              <p class="insights__card-meta">Written by Dharmik Gohil • Published Jan 2026</p>
+            </div>
+          </div>
+
+          <div class="insights__card" data-hover>
+            <div class="insights__card-image">
+              <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=800&auto=format&fit=crop" alt="Architecting High Throughput Multi-tenant CRM Systems - Technical Article by Dharmik Gohil" title="Architecting High-Throughput CRM Systems" loading="lazy" decoding="async" width="800" height="533" />
+              <span class="insights__card-tag pill-tag pill-tag--accent">CRM</span>
+            </div>
+            <div class="insights__card-content">
+              <h3 class="insights__card-title">ARCHITECTING HIGH-THROUGHPUT MULTI-TENANT CRM PIPELINES</h3>
               <p class="insights__card-meta">Written by Dharmik Gohil • Published Jan 2026</p>
             </div>
           </div>
@@ -522,17 +553,6 @@ export function renderHome() {
             <div class="insights__card-content">
               <h3 class="insights__card-title">OPTIMIZING DATABASE QUERY PERFORMANCE IN POSTGRESQL AT SCALE</h3>
               <p class="insights__card-meta">Written by Dharmik Gohil • Published Dec 2025</p>
-            </div>
-          </div>
-
-          <div class="insights__card" data-hover>
-            <div class="insights__card-image">
-              <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=800&auto=format&fit=crop" alt="Next.js 15 Server Components Architecture and Best Practices - Article by Dharmik Gohil" title="Next.js 15 Server Components Architecture" loading="lazy" decoding="async" width="800" height="533" />
-              <span class="insights__card-tag pill-tag pill-tag--accent">FULL STACK</span>
-            </div>
-            <div class="insights__card-content">
-              <h3 class="insights__card-title">NEXT.JS 15 SERVER COMPONENTS: ARCHITECTURE & BEST PRACTICES</h3>
-              <p class="insights__card-meta">Written by Dharmik Gohil • Published Nov 2025</p>
             </div>
           </div>
         </div>

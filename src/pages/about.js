@@ -9,11 +9,12 @@ import { initCounters } from '../counter.js';
 
 export function renderAbout() {
   const skills = [
+    'ERPNext & Frappe Framework', 'Custom CRM Platform Engineering', 'DocType & Workflow Automation',
     'React.js & Next.js 15', 'TypeScript', 'Node.js & Express.js',
     'Data Structures & Algorithms (NPTEL Certified)', 'C# Programming (HackerRank)', 'Java & OOP (NPTEL)',
-    'PostgreSQL & Complex SQL', 'MongoDB & MERN Stack', 'Docker & Kubernetes',
-    'AWS Cloud Infrastructure', 'RESTful & GraphQL APIs', 'Redis Caching & In-Memory Storage',
-    'Go / Golang', 'Python & FastAPI', 'Prisma & TypeORM',
+    'PostgreSQL & MariaDB (SQL Tuning)', 'MongoDB & MERN Stack', 'Docker & Kubernetes',
+    'AWS Cloud Infrastructure', 'RESTful & GraphQL APIs', 'Redis Caching & Async Queues',
+    'Python & FastAPI', 'Go / Golang', 'Prisma & TypeORM',
     'CI/CD Pipelines & GitHub Actions', 'Tailwind CSS & Web Vitals', 'System Design & Microservices',
     'Solidity & Web 3.0 Smart Contracts', 'Security, JWT & OAuth2', 'CHARUSAT IT Engineering'
   ];
@@ -55,11 +56,11 @@ export function renderAbout() {
           DHARMIK BELIEVES CLEAN ARCHITECTURE CREATES <span class="gray">RELIABLE & SCALABLE SYSTEMS.</span>
         </h2>
         <p class="about-statement__text reveal">
-          As a Full Stack Software Engineer & System Architect, my philosophy centers on building high-performance, fault-tolerant web applications and distributed backend infrastructure. I combine deep technical expertise with clean code practices to deliver robust software products.
+          As a Full Stack Software Engineer & System Architect, my philosophy centers on building high-performance ERPNext customizations, tailored CRM platforms, fault-tolerant web applications, and distributed backend infrastructure. I combine deep technical expertise with clean code practices to deliver robust software products.
         </p>
         <div class="about-statement__stats reveal-stagger">
           <div>
-            <div class="about-statement__stat-value" data-count="12" data-suffix="+">0+</div>
+            <div class="about-statement__stat-value" data-count="15" data-suffix="+">0+</div>
             <div class="about-statement__stat-label">Successful Systems</div>
           </div>
           <div>
@@ -67,7 +68,7 @@ export function renderAbout() {
             <div class="about-statement__stat-label">Years Experience</div>
           </div>
           <div>
-            <div class="about-statement__stat-value" data-count="6" data-suffix="+">0+</div>
+            <div class="about-statement__stat-value" data-count="8" data-suffix="+">0+</div>
             <div class="about-statement__stat-label">Global Clients</div>
           </div>
         </div>
@@ -103,14 +104,14 @@ export function renderAbout() {
         </h2>
         <div class="career__cards reveal-stagger">
           <div class="career__card" data-hover>
-            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=700&auto=format&fit=crop" alt="Dharmik Gohil - Senior Full Stack Software Engineer at Tech Scale Inc" title="Senior Full Stack Software Engineer" loading="lazy" decoding="async" width="700" height="466" />
+            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=700&auto=format&fit=crop" alt="Dharmik Gohil - Senior Full Stack & ERP Architect at Tech Scale Inc" title="Senior Full Stack Software Engineer" loading="lazy" decoding="async" width="700" height="466" />
             <div class="career__card-overlay">
               <div class="career__card-name">Tech Scale Inc</div>
               <div class="career__card-period">SENIOR_FULL_STACK_ENGINEER_[2023-PRESENT]</div>
             </div>
           </div>
           <div class="career__card" data-hover>
-            <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=700&auto=format&fit=crop" alt="Dharmik Gohil - Distributed System Architect and Engineering Consultant" title="System Architect & Consultant" loading="lazy" decoding="async" width="700" height="466" />
+            <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=700&auto=format&fit=crop" alt="Dharmik Gohil - Distributed System & ERPNext Architect Consultant" title="System Architect & Consultant" loading="lazy" decoding="async" width="700" height="466" />
             <div class="career__card-overlay">
               <div class="career__card-name">Independent Consultant</div>
               <div class="career__card-period">SYSTEM_ARCHITECT_[2022-PRESENT]</div>
@@ -130,7 +131,7 @@ export function renderAbout() {
     <!-- SKILLS CLOUD -->
     <section class="skills-cloud section">
       <div class="container">
-        <div class="eyebrow reveal">TECH STACK</div>
+        <div class="eyebrow reveal">TECH STACK & SPECIALIZATIONS</div>
         <h2 class="heading-two-tone reveal" style="font-size: clamp(2.5rem, 5vw, 4rem); margin-top: 1rem;">
           TOOLS & <span class="gray">TECHNOLOGIES</span>
         </h2>

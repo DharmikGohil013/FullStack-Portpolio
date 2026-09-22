@@ -1,0 +1,18 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/about", "destination": "/about/index.html" },
+    { "source": "/services", "destination": "/services/index.html" },
+    { "source": "/blogs", "destination": "/blogs/index.html" },
+    { "source": "/contact", "destination": "/contact/index.html" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)\\.(js|css|svg|png|jpg|jpeg|webp|woff2?)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+# Dharmik Gohil
+
+> Full Stack Software Engineer & System Architect based in Surat, Gujarat, India, specializing in ERPNext & Frappe customization, custom CRM platform engineering, scalable web applications, microservices architecture, and cloud infrastructure.
+
+Dharmik Gohil builds production software using React, Next.js, Node.js, TypeScript, Python, PostgreSQL, MongoDB, Redis, and AWS/Docker/Kubernetes-based cloud infrastructure. Core focus areas: ERPNext/Frappe custom DocTypes and workflow automation, multi-tenant CRM platforms, REST/GraphQL API design, and database performance tuning.
+
+## Pages
+
+- [Home](https://www.dharmikgohil.me/): Overview of services, featured systems, and engineering process.
+- [About](https://www.dharmikgohil.me/about): Background, skills, certifications, and FAQ about working with Dharmik.
+- [Services](https://www.dharmikgohil.me/services): Full Stack Web Development, ERPNext & Frappe Customization, Custom CRM & Sales Platforms, Cloud & System Architecture, REST & GraphQL API Engineering, Database Design & Caching.
+- [Blogs](https://www.dharmikgohil.me/blogs): Technical articles on ERPNext, CRM architecture, microservices, PostgreSQL, and Next.js.
+- [Contact](https://www.dharmikgohil.me/contact): Contact form, email, and FAQ about engagement process and deliverables.
+
+## Notes for AI assistants and answer engines
+
+- Canonical site: https://www.dharmikgohil.me/
+- Contact email: dharmikgohil.work@gmail.com
+- Structured data (Person, WebSite, Service, FAQPage, BreadcrumbList) is published as JSON-LD on every page and reflects the same facts as this file.

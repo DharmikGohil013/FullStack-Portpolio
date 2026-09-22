@@ -14,7 +14,7 @@ export function renderHome() {
 
       <div class="hero__content">
         <div class="hero__left">
-          <p class="hero__tagline">I DESIGN & BUILD SCALABLE WEB APPLICATIONS, ERPNEXT CUSTOMIZATIONS, CRM PLATFORMS, AND HIGH-PERFORMANCE CLOUD ARCHITECTURES.</p>
+          <h1 class="hero__tagline">DHARMIK GOHIL — I DESIGN & BUILD SCALABLE WEB APPLICATIONS, ERPNEXT CUSTOMIZATIONS, CRM PLATFORMS, AND HIGH-PERFORMANCE CLOUD ARCHITECTURES.</h1>
         </div>
         <div></div>
       </div>
@@ -43,7 +43,7 @@ export function renderHome() {
             <div class="hero__contact-card-name">Dharmik Gohil</div>
             <div class="hero__contact-card-role">Full Stack Engineer, ERPNext & CRM Specialist</div>
           </div>
-          <a href="#/contact" class="hero__contact-card-btn" data-hover>→</a>
+          <a href="/contact" class="hero__contact-card-btn" data-hover>→</a>
         </div>
       </div>
 
@@ -121,7 +121,7 @@ export function renderHome() {
                     <span class="pill-tag">Tailwind CSS</span>
                     <span class="pill-tag">Web Vitals</span>
                   </div>
-                  <a href="#/services" class="btn btn--accent services__item-btn" data-hover>EXPLORE SERVICES <span class="btn__arrow">→</span></a>
+                  <a href="/services" class="btn btn--accent services__item-btn" data-hover>EXPLORE SERVICES <span class="btn__arrow">→</span></a>
                 </div>
               </div>
             </div>
@@ -146,7 +146,7 @@ export function renderHome() {
                     <span class="pill-tag">Python & MariaDB</span>
                     <span class="pill-tag">Workflow Automation</span>
                   </div>
-                  <a href="#/services" class="btn btn--accent services__item-btn" data-hover>EXPLORE SERVICES <span class="btn__arrow">→</span></a>
+                  <a href="/services" class="btn btn--accent services__item-btn" data-hover>EXPLORE SERVICES <span class="btn__arrow">→</span></a>
                 </div>
               </div>
             </div>
@@ -171,7 +171,7 @@ export function renderHome() {
                     <span class="pill-tag">Analytics Dashboard</span>
                     <span class="pill-tag">Omnichannel CRM</span>
                   </div>
-                  <a href="#/services" class="btn btn--accent services__item-btn" data-hover>EXPLORE SERVICES <span class="btn__arrow">→</span></a>
+                  <a href="/services" class="btn btn--accent services__item-btn" data-hover>EXPLORE SERVICES <span class="btn__arrow">→</span></a>
                 </div>
               </div>
             </div>
@@ -196,7 +196,7 @@ export function renderHome() {
                     <span class="pill-tag">Serverless</span>
                     <span class="pill-tag">System Design</span>
                   </div>
-                  <a href="#/services" class="btn btn--accent services__item-btn" data-hover>EXPLORE SERVICES <span class="btn__arrow">→</span></a>
+                  <a href="/services" class="btn btn--accent services__item-btn" data-hover>EXPLORE SERVICES <span class="btn__arrow">→</span></a>
                 </div>
               </div>
             </div>
@@ -221,7 +221,7 @@ export function renderHome() {
                     <span class="pill-tag">JWT & OAuth</span>
                     <span class="pill-tag">OpenAPI</span>
                   </div>
-                  <a href="#/services" class="btn btn--accent services__item-btn" data-hover>EXPLORE SERVICES <span class="btn__arrow">→</span></a>
+                  <a href="/services" class="btn btn--accent services__item-btn" data-hover>EXPLORE SERVICES <span class="btn__arrow">→</span></a>
                 </div>
               </div>
             </div>
@@ -246,7 +246,7 @@ export function renderHome() {
                     <span class="pill-tag">Prisma ORM</span>
                     <span class="pill-tag">Query Optimization</span>
                   </div>
-                  <a href="#/services" class="btn btn--accent services__item-btn" data-hover>EXPLORE SERVICES <span class="btn__arrow">→</span></a>
+                  <a href="/services" class="btn btn--accent services__item-btn" data-hover>EXPLORE SERVICES <span class="btn__arrow">→</span></a>
                 </div>
               </div>
             </div>
@@ -254,7 +254,7 @@ export function renderHome() {
         </div>
 
         <div class="services__load-more reveal">
-          <a href="#/services" class="btn btn--accent" data-hover>ALL SERVICES <span class="btn__arrow">→</span></a>
+          <a href="/services" class="btn btn--accent" data-hover>ALL SERVICES <span class="btn__arrow">→</span></a>
         </div>
       </div>
     </section>
@@ -349,7 +349,7 @@ export function renderHome() {
           </div>
 
           <div class="projects__all-btn">
-            <a href="#/blogs" class="btn btn--accent" data-hover>TECHNICAL ARTICLES <span class="btn__arrow">→</span></a>
+            <a href="/blogs" class="btn btn--accent" data-hover>TECHNICAL ARTICLES <span class="btn__arrow">→</span></a>
           </div>
         </div>
       </div>
@@ -448,7 +448,7 @@ export function renderHome() {
               <span>2-3 weeks delivery</span>
               <span>2 Revisions</span>
             </div>
-            <a href="#/contact" class="btn btn--outline pricing__card-btn" data-hover>GET STARTED</a>
+            <a href="/contact" class="btn btn--outline pricing__card-btn" data-hover>GET STARTED</a>
           </div>
 
           <!-- Professional (Featured) -->
@@ -479,7 +479,7 @@ export function renderHome() {
               <span>4-8 weeks delivery</span>
               <span>5 Revisions</span>
             </div>
-            <a href="#/contact" class="btn btn--accent pricing__card-btn" data-hover>GET STARTED</a>
+            <a href="/contact" class="btn btn--accent pricing__card-btn" data-hover>GET STARTED</a>
           </div>
 
           <!-- Enterprise -->
@@ -510,7 +510,7 @@ export function renderHome() {
               <span>8-16 weeks delivery</span>
               <span>Unlimited Revisions</span>
             </div>
-            <a href="#/contact" class="btn btn--outline pricing__card-btn" data-hover>GET STARTED</a>
+            <a href="/contact" class="btn btn--outline pricing__card-btn" data-hover>GET STARTED</a>
           </div>
         </div>
       </div>

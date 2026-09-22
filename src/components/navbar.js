@@ -1,14 +1,16 @@
 import gsap from 'gsap';
 
-export function renderNavbar() {
-  const navbar = document.getElementById('navbar');
-  navbar.innerHTML = `
-    <a href="#/" class="navbar__logo" data-hover>Dharmik Gohil<sup>®</sup></a>
+// Pure template strings — reused by both the client bootstrap (below) and the
+// build-time prerender script (scripts/prerender.mjs) so static HTML output
+// matches what the client renders after hydration.
+export function getNavbarHTML() {
+  return `
+    <a href="/" class="navbar__logo" data-hover>Dharmik Gohil<sup>®</sup></a>
     <ul class="navbar__links">
-      <li><a href="#/" data-hover>Home</a></li>
-      <li><a href="#/about" data-hover>About</a></li>
-      <li><a href="#/services" data-hover>Services</a></li>
-      <li><a href="#/contact" data-hover>Contact</a></li>
+      <li><a href="/" data-hover>Home</a></li>
+      <li><a href="/about" data-hover>About</a></li>
+      <li><a href="/services" data-hover>Services</a></li>
+      <li><a href="/contact" data-hover>Contact</a></li>
     </ul>
     <div class="navbar__hamburger" id="hamburgerBtn" data-hover>
       <span></span>
@@ -16,29 +18,30 @@ export function renderNavbar() {
       <span></span>
     </div>
   `;
-  
-  const overlay = document.getElementById('menuOverlay');
-  overlay.innerHTML = `
+}
+
+export function getMenuOverlayHTML() {
+  return `
     <div class="menu-overlay__content">
       <div class="menu-overlay__nav">
         <div class="menu-overlay__nav-item">
-          <a href="#/" class="menu-overlay__nav-link" data-hover>HOME</a>
+          <a href="/" class="menu-overlay__nav-link" data-hover>HOME</a>
           <span class="menu-overlay__nav-icon">+</span>
         </div>
         <div class="menu-overlay__nav-item">
-          <a href="#/about" class="menu-overlay__nav-link" data-hover>ABOUT</a>
+          <a href="/about" class="menu-overlay__nav-link" data-hover>ABOUT</a>
           <span class="menu-overlay__nav-icon">+</span>
         </div>
         <div class="menu-overlay__nav-item">
-          <a href="#/services" class="menu-overlay__nav-link" data-hover>SERVICES</a>
+          <a href="/services" class="menu-overlay__nav-link" data-hover>SERVICES</a>
           <span class="menu-overlay__nav-icon">+</span>
         </div>
         <div class="menu-overlay__nav-item">
-          <a href="#/blogs" class="menu-overlay__nav-link" data-hover>BLOGS</a>
+          <a href="/blogs" class="menu-overlay__nav-link" data-hover>BLOGS</a>
           <span class="menu-overlay__nav-icon">+</span>
         </div>
         <div class="menu-overlay__nav-item">
-          <a href="#/contact" class="menu-overlay__nav-link" data-hover>CONTACT</a>
+          <a href="/contact" class="menu-overlay__nav-link" data-hover>CONTACT</a>
           <span class="menu-overlay__nav-icon">+</span>
         </div>
       </div>
@@ -49,15 +52,23 @@ export function renderNavbar() {
         <div class="menu-overlay__info-value"><a href="mailto:dharmikgohil.work@gmail.com" style="color: inherit; text-decoration: none;">dharmikgohil.work@gmail.com</a></div>
         <div class="menu-overlay__hours">Our Office hours are<br>10 AM – 6 PM, Monday – Friday</div>
         <div class="menu-overlay__socials">
-          <a href="https://github.com/DharmikGohil013" class="menu-overlay__social" data-hover target="_blank">GH</a>
-          <a href="https://linkedin.com" class="menu-overlay__social" data-hover target="_blank">LI</a>
-          <a href="https://dharmikgohil.itch.io" class="menu-overlay__social" data-hover target="_blank">IO</a>
-          <a href="https://instagram.com" class="menu-overlay__social" data-hover target="_blank">IG</a>
+          <a href="https://github.com/DharmikGohil013" class="menu-overlay__social" data-hover target="_blank" rel="noopener noreferrer">GH</a>
+          <a href="https://www.linkedin.com/in/dharmikgohil086/" class="menu-overlay__social" data-hover target="_blank" rel="noopener noreferrer">LI</a>
+          <a href="https://dharmikgohil.itch.io" class="menu-overlay__social" data-hover target="_blank" rel="noopener noreferrer">IO</a>
+          <a href="https://instagram.com" class="menu-overlay__social" data-hover target="_blank" rel="noopener noreferrer">IG</a>
         </div>
       </div>
     </div>
   `;
-  
+}
+
+export function renderNavbar() {
+  const navbar = document.getElementById('navbar');
+  navbar.innerHTML = getNavbarHTML();
+
+  const overlay = document.getElementById('menuOverlay');
+  overlay.innerHTML = getMenuOverlayHTML();
+
   initHamburger();
   initNavScroll();
 }

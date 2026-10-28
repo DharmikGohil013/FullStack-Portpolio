@@ -11,6 +11,9 @@ export function renderServices() {
 
     <section class="services-detail section">
       <div class="container">
+        <h2>Web development, ERPNext customization, and CRM engineering</h2>
+        <p>Dharmik Gohil is a full stack developer based in Surat, Gujarat, India. Services cover React and Next.js applications, Node.js APIs, ERPNext and Frappe customization, and custom CRM platforms.</p>
+        <p><a href="/contact">Discuss your software project</a> or <a href="/about">explore Dharmik's engineering background</a>.</p>
         <div class="services-detail__list">
           
           <!-- Service 1 -->

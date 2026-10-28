@@ -62,7 +62,7 @@ async function main() {
     const dom = new JSDOM(shellHtml);
     const doc = dom.window.document;
     const seoMeta = seoRoutes[routePath];
-    const canonicalPath = routePath === '/' ? '' : routePath;
+    const canonicalPath = routePath;
     const canonicalUrl = `${SITE_URL}${canonicalPath}`;
 
     doc.title = seoMeta.title;
@@ -97,7 +97,10 @@ async function main() {
     const overlay = doc.getElementById('menuOverlay');
     if (overlay) overlay.innerHTML = getMenuOverlayHTML();
     const app = doc.getElementById('app');
-    if (app) app.innerHTML = renderFn();
+    if (app) {
+      app.innerHTML = renderFn();
+      app.dataset.route = routePath;
+    }
 
     const html = '<!doctype html>\n' + doc.documentElement.outerHTML;
 

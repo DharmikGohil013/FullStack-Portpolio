@@ -14,7 +14,7 @@ export function renderHome() {
 
       <div class="hero__content">
         <div class="hero__left">
-          <h1 class="hero__tagline">DHARMIK GOHIL — I DESIGN & BUILD SCALABLE WEB APPLICATIONS, ERPNEXT CUSTOMIZATIONS, CRM PLATFORMS, AND HIGH-PERFORMANCE CLOUD ARCHITECTURES.</h1>
+          <h1 class="hero__tagline">DHARMIK GOHIL — FULL STACK DEVELOPER IN SURAT. I BUILD WEB APPLICATIONS, ERPNEXT CUSTOMIZATIONS, AND CUSTOM CRM PLATFORMS.</h1>
         </div>
         <div></div>
       </div>

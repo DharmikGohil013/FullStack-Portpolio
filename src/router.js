@@ -53,7 +53,7 @@ function updateHead(path) {
   const seoMeta = seoRoutes[path] || seoRoutes['/404'];
   if (!seoMeta) return;
 
-  const canonicalPath = path === '/' ? '' : path;
+  const canonicalPath = path;
   const canonicalUrl = `${SITE_URL}${canonicalPath}`;
 
   document.title = seoMeta.title;
@@ -71,8 +71,7 @@ function updateHead(path) {
     : 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1';
   setAttr('meta[name="robots"]', 'content', robotsContent);
 
-  // Per-page structured data (FAQPage / Service / BreadcrumbList) — additive to the
-  // global Person/WebSite graph that lives statically in index.html.
+  // Replace the complete graph on every navigation to avoid stale page entities.
   let schemaScript = document.getElementById('page-schema');
   const schema = buildPageSchema(path);
   if (schema) {
@@ -109,6 +108,7 @@ function handleRoute() {
   const render = () => {
     window.scrollTo(0, 0);
     app.innerHTML = route.render();
+    app.dataset.route = path;
     currentPage = path;
 
     requestAnimationFrame(() => {
@@ -122,7 +122,7 @@ function handleRoute() {
 
   // Skip the fade-out + re-render on the very first load: the server/prerendered
   // HTML already contains this page's markup, so we just hydrate interactions.
-  if (isFirstRender) {
+  if (isFirstRender && app.dataset.route === path && app.children.length) {
     currentPage = path;
     requestAnimationFrame(() => {
       if (route.init) route.init();

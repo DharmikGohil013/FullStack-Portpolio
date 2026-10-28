@@ -3,7 +3,9 @@
 const SITE_URL = 'https://www.dharmikgohil.me';
 const SHARE_IMAGE = `${SITE_URL}/og-share-preview.jpg`;
 
-const faqs = [
+export const faqs = [
+  { q: 'Who is Dharmik Gohil and where is he based?', a: 'Dharmik Gohil is a full stack software engineer and system architect based in Surat, Gujarat, India. He builds web applications, ERPNext and Frappe customizations, and custom CRM platforms.' },
+  { q: 'Can you customize ERPNext and build a custom CRM?', a: 'Yes. ERPNext and Frappe services include custom DocTypes, workflow automation, and HRMS and inventory integrations. Custom CRM development includes lead pipelines, deal tracking, and analytics dashboards.' },
   {
     q: 'What software engineering services do you offer?',
     a: 'Full stack web application development (React/Next.js & Node.js/TypeScript), distributed system architecture, REST/GraphQL API design, database modeling & query optimization (PostgreSQL, MongoDB, Redis), ERPNext & Frappe customization, and DevOps CI/CD automation.'
@@ -81,32 +83,32 @@ function servicesSchema() {
 
 export const routes = {
   '/': {
-    title: 'Dharmik Gohil — Full Stack Software Engineer & System Architect',
-    description: 'Dharmik Gohil — Full Stack Software Engineer & System Architect specializing in scalable web applications, ERPNext customization, CRM platforms, microservices, React, Next.js, Node.js, and cloud infrastructure.',
+    title: "Dharmik Gohil | Full Stack Developer in Surat",
+    description: "Dharmik Gohil is a full stack developer in Surat, India, building React and Node.js web apps, ERPNext customizations, and custom CRM platforms.",
     breadcrumb: breadcrumb([{ name: 'Home', path: '/' }]),
     extraSchema: []
   },
   '/about': {
-    title: 'About Dharmik Gohil | Full Stack Software Engineer & System Architect',
-    description: 'Dharmik Gohil — IIT Bombay Techfest winner, Code Raider Clash 1st Rank Champion, NPTEL Data Structures & Algorithms Certified Engineer from CHARUSAT University.',
+    title: "About Dharmik Gohil | Software Engineer in Surat",
+    description: "Meet Dharmik Gohil, a full stack software engineer in Surat, Gujarat. Explore his skills, projects, engineering background, and certifications.",
     breadcrumb: breadcrumb([{ name: 'Home', path: '/' }, { name: 'About', path: '/about' }]),
-    extraSchema: [faqSchema()]
+    extraSchema: []
   },
   '/services': {
-    title: 'Software Engineering & System Architecture Services | Dharmik Gohil',
-    description: 'Full Stack Web Engineering, ERPNext & Frappe customization, Custom CRM platforms, Microservices Architecture, REST & GraphQL APIs, Database Design & Caching services.',
+    title: "ERPNext, CRM & Web Development Services | Dharmik Gohil",
+    description: "Explore ERPNext and Frappe customization, custom CRM development, React and Next.js web apps, API engineering, and database optimization services.",
     breadcrumb: breadcrumb([{ name: 'Home', path: '/' }, { name: 'Services', path: '/services' }]),
     extraSchema: [servicesSchema()]
   },
   '/blogs': {
-    title: 'Engineering Articles & System Insights | Dharmik Gohil',
-    description: 'Technical insights on ERPNext & Frappe, CRM architecture, microservices with Go & Docker, PostgreSQL query optimization, Next.js 15 server components, and Redis & Kafka.',
+    title: "Software Engineering Topics | Dharmik Gohil",
+    description: "Explore engineering topics from Dharmik Gohil: ERPNext, Frappe, CRM architecture, microservices, PostgreSQL performance, and Next.js.",
     breadcrumb: breadcrumb([{ name: 'Home', path: '/' }, { name: 'Blogs', path: '/blogs' }]),
     extraSchema: []
   },
   '/contact': {
-    title: 'Contact Dharmik Gohil | Full Stack Software Engineer & System Architect',
-    description: 'Get in touch with Dharmik Gohil for software engineering projects, system architecture consulting, full stack web development, and cloud platform services.',
+    title: "Contact Dharmik Gohil | Web & ERPNext Development",
+    description: "Contact Dharmik Gohil in Surat, Gujarat, to discuss full stack web development, ERPNext and Frappe customization, custom CRM, or API projects.",
     breadcrumb: breadcrumb([{ name: 'Home', path: '/' }, { name: 'Contact', path: '/contact' }]),
     extraSchema: [faqSchema()]
   },
@@ -122,7 +124,64 @@ export const routes = {
 export function buildPageSchema(path) {
   const meta = routes[path];
   if (!meta) return null;
-  const graph = [];
+  if (meta.noindex) return null;
+  const url = SITE_URL + path;
+  const graph = [
+  {
+    "@type": "Person",
+    "@id": "https://www.dharmikgohil.me/#person",
+    "name": "Dharmik Gohil",
+    "givenName": "Dharmik",
+    "familyName": "Gohil",
+    "alternateName": "dharmikgohil",
+    "description": "Full Stack Software Engineer & System Architect specializing in ERPNext & Frappe customization, CRM platform engineering, modern web applications, microservices, cloud infrastructure, and distributed systems.",
+    "url": "https://www.dharmikgohil.me",
+    "image": "https://www.dharmikgohil.me/og-share-preview.jpg",
+    "jobTitle": "Full Stack Software Engineer & System Architect",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Surat",
+      "addressRegion": "Gujarat",
+      "addressCountry": "IN"
+    },
+    "knowsAbout": [
+      "ERPNext Enterprise ERP",
+      "Frappe Framework & Custom DocTypes",
+      "Custom CRM Platform Development",
+      "Full Stack Web Development",
+      "React.js & Next.js 15",
+      "Node.js & Express.js",
+      "TypeScript & Python",
+      "Microservices Architecture",
+      "Cloud Infrastructure (AWS, Docker, K8s)",
+      "PostgreSQL, MariaDB & MongoDB",
+      "Redis Caching & Async Queues",
+      "REST & GraphQL APIs",
+      "Data Structures & Algorithms"
+    ],
+    "sameAs": [
+      "https://github.com/DharmikGohil013",
+      "https://www.linkedin.com/in/dharmikgohil086/",
+      "https://twitter.com/dharmikgohil"
+    ]
+  },
+  {
+    "@type": "WebSite",
+    "@id": "https://www.dharmikgohil.me/#website",
+    "url": "https://www.dharmikgohil.me",
+    "name": "Dharmik Gohil — Full Stack Software Engineer & System Architect",
+    "publisher": {
+      "@id": "https://www.dharmikgohil.me/#person"
+    }
+  }
+];
+  graph.push({
+    '@type': path === '/about' ? 'ProfilePage' : path === '/contact' ? 'ContactPage' : path === '/blogs' ? 'CollectionPage' : 'WebPage',
+    '@id': url + '#webpage', url, name: meta.title, description: meta.description,
+    inLanguage: 'en', isPartOf: { '@id': SITE_URL + '/#website' },
+    about: { '@id': SITE_URL + '/#person' },
+    ...(path === '/about' ? { mainEntity: { '@id': SITE_URL + '/#person' } } : {})
+  });
   if (meta.breadcrumb) graph.push(meta.breadcrumb);
   if (meta.extraSchema && meta.extraSchema.length) graph.push(...meta.extraSchema);
   if (!graph.length) return null;
